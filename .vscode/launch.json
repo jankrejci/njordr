@@ -1,0 +1,57 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "ESP32-S3 Build & Flash & Debug (release)",
+      "type": "probe-rs-debug",
+      "request": "launch",
+      "chip": "esp32s3",
+      "flashingConfig": {
+        "flashingEnabled": true,
+        "resetAfterFlashing": true,
+        "haltAfterReset": true
+      },
+      "coreConfigs": [
+        {
+          "coreIndex": 0,
+          "programBinary": "${workspaceFolder}/target/xtensa-esp32s3-none-elf/release/njordr-firmware",
+          "rttEnabled": true,
+          "options": {
+            "env": {
+              "RUSTUP_TOOLCHAIN": "esp"
+            }
+          }
+        }
+      ],
+      "consoleLogLevel": "Debug",
+      "wireProtocol": "Jtag",
+      "preLaunchTask": "cargo build --release"
+    },
+    {
+      "name": "ESP32-S3 Build & Flash & Debug (debug) ",
+      "type": "probe-rs-debug",
+      "request": "launch",
+      "chip": "ESP32-S3",
+      "flashingConfig": {
+        "flashingEnabled": true,
+        "resetAfterFlashing": true,
+        "haltAfterReset": true
+      },
+      "coreConfigs": [
+        {
+          "coreIndex": 0,
+          "programBinary": "${workspaceFolder}/target/xtensa-esp32s3-none-elf/debug/njordr-firmware",
+          "rttEnabled": true,
+          "options": {
+            "env": {
+              "RUSTUP_TOOLCHAIN": "esp"
+            }
+          }
+        }
+      ],
+      "consoleLogLevel": "Info",
+      "wireProtocol": "Jtag",
+      "preLaunchTask": "cargo build"
+    },
+  ]
+}
