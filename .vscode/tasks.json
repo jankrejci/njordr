@@ -1,0 +1,98 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "cargo build",
+      "type": "shell",
+      "command": "cargo",
+      "args": ["build"],
+      "group": "build",
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared"
+      },
+      "options": {
+        "env": {
+          "RUSTUP_TOOLCHAIN": "esp"
+        }
+      },
+      "problemMatcher": ["$rustc"]
+    },
+    {
+      "label": "cargo build --release",
+      "type": "shell",
+      "command": "cargo",
+      "args": ["build", "--release"],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared"
+      },
+      "options": {
+        "env": {
+          "RUSTUP_TOOLCHAIN": "esp"
+        }
+      },
+      "problemMatcher": ["$rustc"]
+    },
+    {
+      "label": "cargo check",
+      "type": "shell",
+      "command": "cargo",
+      "args": ["check"],
+      "group": "build",
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared"
+      },
+      "options": {
+        "env": {
+          "RUSTUP_TOOLCHAIN": "esp"
+        }
+      },
+      "problemMatcher": ["$rustc"]
+    },
+    {
+      "label": "cargo run",
+      "type": "shell",
+      "command": "cargo",
+      "args": ["run", "--release"],
+      "group": "build",
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared"
+      },
+      "options": {
+        "env": {
+          "RUSTUP_TOOLCHAIN": "esp"
+        }
+      },
+      "problemMatcher": ["$rustc"]
+    },
+    {
+      "label": "espflash monitor",
+      "type": "shell",
+      "command": "espflash",
+      "args": ["monitor"],
+      "group": "build",
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared"
+      },
+      "isBackground": true
+    }
+  ]
+}
