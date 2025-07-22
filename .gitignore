@@ -5,3 +5,5 @@ target/
 **/*.rs.bk
 # ESP toolchain
 .rustup/
+.cargo/
+!.cargo/config.toml
