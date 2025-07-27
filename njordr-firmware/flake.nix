@@ -124,7 +124,8 @@
             # Install ESP toolchain if not present
             if [ ! -d "$XTENSA_GCC_PATH" ] || [ ! -d "$LIBCLANG_TOOLCHAIN_PATH" ]; then
               echo "📦 Installing ESP32-S3 Xtensa toolchain..."
-              espup install --targets esp32s3 || true
+              # This needs to be compatible with rust_ci.yml
+              espup install --targets esp32s3 --toolchain-version 1.88.0 || true
               echo "✅ ESP toolchain installation complete"
               
               # Patch binaries on NixOS only
