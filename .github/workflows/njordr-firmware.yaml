@@ -1,10 +1,10 @@
-name: Continuous Integration
+name: njordr-firmware-rust
 
 on:
-  push:
-    paths-ignore:
-      - "**/README.md"
   pull_request:
+     paths:
+      - "njordr-firmware/**"
+      - '.github/workflows/njordr-firmware.yaml'
   workflow_dispatch:
 
 env:
@@ -19,7 +19,7 @@ jobs:
       run:
         working-directory: njordr-firmware
     strategy:
-      fail-fast: false
+      fail-fast: true
       matrix:
         action:
           - command: build
