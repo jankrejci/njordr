@@ -1,6 +1,8 @@
 #![no_std]
 #![no_main]
 
+pub mod sonic;
+
 use defmt::debug;
 use embassy_executor::Spawner;
 use embassy_time::{Duration, Timer};
