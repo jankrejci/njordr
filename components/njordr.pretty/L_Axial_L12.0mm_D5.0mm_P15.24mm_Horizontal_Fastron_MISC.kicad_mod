@@ -1,0 +1,168 @@
+(footprint "L_Axial_L12.0mm_D5.0mm_P15.24mm_Horizontal_Fastron_MISC"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Inductor, Axial series, Axial, Horizontal, pin pitch=15.24mm, length*diameter=12*5mm^2, Fastron, MISC, http://cdn-reichelt.de/documents/datenblatt/B400/DS_MISC.pdf")
+	(tags "Inductor Axial series Axial Horizontal pin pitch 15.24mm  length 12mm diameter 5mm Fastron MISC")
+	(property "Reference" "REF**"
+		(at 7.62 -3.62 0)
+		(layer "F.SilkS")
+		(uuid "008ca8b2-9eba-43bf-bd86-2c945b7e5c66")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_Axial_L12.0mm_D5.0mm_P15.24mm_Horizontal_Fastron_MISC"
+		(at 7.62 3.62 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c2b3fd8d-c93a-4d15-8961-46f1d9780b6c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "14ac7251-a811-4b2a-989f-72eb0ed602c6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0660b082-6733-41d5-b358-a079e8ae5d55")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 1.44 0)
+		(end 1.5 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d1142e10-00bf-47c4-8752-e78c81a38736")
+	)
+	(fp_line
+		(start 13.8 0)
+		(end 13.74 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "baa105fd-2b54-495d-a3d7-fcff0a23e6f4")
+	)
+	(fp_rect
+		(start 1.5 -2.62)
+		(end 13.74 2.62)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "db23ca9c-0b09-4708-94b8-8454436c316c")
+	)
+	(fp_rect
+		(start -1.45 -2.75)
+		(end 16.69 2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "6135787f-00fa-4973-aec6-b9d0d7e0da47")
+	)
+	(fp_line
+		(start 0 0)
+		(end 1.62 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e4c1a944-99a8-4f41-be78-dad5315f601e")
+	)
+	(fp_line
+		(start 15.24 0)
+		(end 13.62 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "60d15b12-6f81-49a2-bdab-5685ef3b4ac8")
+	)
+	(fp_rect
+		(start 1.62 -2.5)
+		(end 13.62 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "bce312e3-b39f-4bf0-8252-f9328aab381b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 7.62 0 0)
+		(layer "F.Fab")
+		(uuid "b4dd71c7-a1fb-4fc7-98d7-621385904006")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.06)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.4 2.4)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c4ccb9e2-4712-46fe-9df0-ecc8d6dba5e5")
+	)
+	(pad "2" thru_hole circle
+		(at 15.24 0)
+		(size 2.4 2.4)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0a985117-30c6-4593-ab25-7fca726dbc4d")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../components/L_Axial_L12.0mm_D5.0mm_P15.24mm_Horizontal_Fastron_MISC.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

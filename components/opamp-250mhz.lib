@@ -1,0 +1,39 @@
+* GS8054 250MHz Op-Amp - Fixed pole frequency
+.subckt GS8054 1 2 3 4 5 6 7 8 9 10 11 12 13 14
+XOP1 3 2 4 11 1 GS805X_fixed
+XOP2 5 6 4 11 7 GS805X_fixed
+XOP3 10 9 4 11 8 GS805X_fixed
+XOP4 12 13 4 11 14 GS805X_fixed
+.ends GS8054
+
+* Fixed single op-amp model
+.subckt GS805X_fixed IN+ IN- VCC VEE OUT
+* Input stage
+Rin IN+ IN- 10G
+Cin IN+ IN- 2p
+Vos IN+ 1 DC 2m
+
+* Transconductance stage
+* For GBW = 250MHz with Aol = 100k (100dB):
+* fp = GBW/Aol = 250MHz/100k = 2.5kHz
+Gm 0 2 1 IN- 0.1
+
+* Dominant pole at 2.5kHz
+* R = 1/(2*pi*2.5kHz*C) = 63.66k for C=1nF
+Rout 2 0 63.66k
+Cc 2 0 1n
+
+* Voltage buffer
+Ebuffer OUT 0 2 0 1
+
+* Output resistance
+Ro OUT 0 1G
+
+* Rail clamping
+D1 OUT 3 Dclamp
+D2 4 OUT Dclamp
+Vhi VCC 3 0.1
+Vlo 4 VEE 0.1
+
+.model Dclamp D(Is=1e-14 Rs=1 N=1)
+.ends GS805X_fixed

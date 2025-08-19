@@ -1,0 +1,13 @@
+* LM285-1.2 Bandgap Reference Model
+* Pin order: Cathode(K) Anode(A)
+.subckt LM285-1.2 K A
+* Internal voltage reference node
+V1 K n1 DC 1.235
+* Dynamic resistance (typically 0.5-1 ohm)
+R1 n1 n2 0.8
+* Minimum load resistance to ensure convergence
+R2 n2 A 1
+* Protection diode for forward conduction
+D1 A K Dprot
+.model Dprot D(Is=1e-14 Rs=1 N=1.2 Bv=10 Ibv=10m)
+.ends LM285-1.2

@@ -1,4 +1,4 @@
-(footprint "Buzzer_D14mm_H7mm_P10mm"
+(footprint "Buzzer_D14mm_H9mm_P5mm"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -6,12 +6,12 @@
 	(descr "Generic Buzzer, D14mm height 7mm with pitch 10mm")
 	(tags "buzzer")
 	(property "Reference" "REF**"
-		(at 0 -7.5 0)
+		(at 0 -8.2 0)
 		(layer "F.SilkS")
 		(uuid "ccc86916-95e2-45f0-adb0-3defe77e9622")
 		(effects
 			(font
-				(size 1 1)
+				(size 0.8 0.8)
 				(thickness 0.15)
 			)
 		)
@@ -19,6 +19,7 @@
 	(property "Value" "Buzzer_D12mm_H8mm_P5mm"
 		(at 0 9.5 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "54544db1-1545-4e8a-9e3e-7a9e25bdbcba")
 		(effects
 			(font
@@ -56,7 +57,7 @@
 	(attr through_hole)
 	(fp_circle
 		(center 0 0)
-		(end 6.1 0)
+		(end 7.1 0)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -67,7 +68,7 @@
 	)
 	(fp_circle
 		(center 0 0)
-		(end 6.25 0)
+		(end 7.25 0)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -89,7 +90,7 @@
 	)
 	(fp_circle
 		(center 0 0)
-		(end 6 0)
+		(end 7 0)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -99,7 +100,7 @@
 		(uuid "01aa1122-58d9-4e97-9446-53994d3df4d3")
 	)
 	(fp_text user "+"
-		(at -2.5 -2 0)
+		(at -2.5 -2.5 0)
 		(layer "F.SilkS")
 		(uuid "b4d03d4b-071e-4f28-a642-184dd5d7f173")
 		(effects
@@ -110,18 +111,18 @@
 		)
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 7.5 0)
+		(at 0 4.5 0)
 		(layer "F.Fab")
 		(uuid "0fbf60a4-f458-405a-93f4-d99e185a6f26")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.4 0.4)
+				(thickness 0.06)
 			)
 		)
 	)
 	(fp_text user "+"
-		(at -2.5 -2 0)
+		(at -2.5 -2.5 0)
 		(layer "F.Fab")
 		(uuid "7d04f4ab-b19e-4b74-a65e-4cc406872952")
 		(effects
@@ -139,6 +140,22 @@
 		(remove_unused_layers no)
 		(uuid "5b2e2b84-4fac-42ef-92b8-d00d423a6e98")
 	)
+	(pad "1" thru_hole rect
+		(at 0 -2.5 270)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0fa470e2-ee54-40c5-ad33-6d044d1fe40d")
+	)
+	(pad "2" thru_hole circle
+		(at 0 2.5 270)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e8a84637-cb5b-4372-bf18-2cff2edb5455")
+	)
 	(pad "2" thru_hole circle
 		(at 2.5 0)
 		(size 2 2)
@@ -148,15 +165,15 @@
 		(uuid "335905e3-9ef6-4769-8b60-130204593459")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Buzzer_Beeper.3dshapes/Buzzer_D14mm_H7mm_P10mm.stpZ"
+	(model "${KIPRJMOD}/../components/Same_Sky_CUSA-TR65-065-2200-TH68.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 0 11)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz 90 -0 -90)
 		)
 	)
 )
