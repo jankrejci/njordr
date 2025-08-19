@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "DRV8300DPWR")(type "KiCad")(uri "${KIPRJMOD}/../components/DRV8300DPWR.kicad_sym")(options "")(descr ""))
+  (lib (name "TMUX7411FRRPR")(type "KiCad")(uri "${KIPRJMOD}/../components/TMUX7411FRRPR.kicad_sym")(options "")(descr ""))
+  (lib (name "TL974IPWR")(type "KiCad")(uri "${KIPRJMOD}/../components/TL974IPWR.kicad_sym")(options "")(descr ""))
+)

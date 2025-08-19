@@ -1,0 +1,52 @@
+{
+  "last_sch_text_sim_command": "",
+  "tabs": [
+    {
+      "analysis": "AC",
+      "commands": [
+        ".ac dec 1000 10 10Meg",
+        ".kicad adjustpaths",
+        ".save all",
+        ".probe alli",
+        ".probe allp"
+      ],
+      "dottedSecondary": true,
+      "legend": {
+        "x": 338,
+        "y": 569
+      },
+      "margins": {
+        "bottom": 45,
+        "left": 70,
+        "right": 70,
+        "top": 30
+      },
+      "measurements": [],
+      "showGrid": true,
+      "traces": [
+        {
+          "color": "rgb(77, 175, 74)",
+          "signal": "V(/ECHO) (phase)",
+          "trace_type": 5
+        },
+        {
+          "color": "rgb(77, 175, 74)",
+          "signal": "V(/ECHO) (gain)",
+          "trace_type": 9
+        },
+        {
+          "color": "rgb(228, 26, 28)",
+          "signal": "V(/signal-priming/STAGE_A) (phase)",
+          "trace_type": 517
+        },
+        {
+          "color": "rgb(228, 26, 28)",
+          "signal": "V(/signal-priming/STAGE_A) (gain)",
+          "trace_type": 521
+        }
+      ]
+    }
+  ],
+  "user_defined_signals": [],
+  "version": 6
+}
