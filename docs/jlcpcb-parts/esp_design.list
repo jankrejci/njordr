@@ -1,0 +1,23 @@
+# ESP32 RAW design, 8MB flash + 8MB ram
+C2913194  1  # ESP32-S3R8, integrated 8MB ram
+C2685734  1  # GD25Q64ESIG, 8MB flash
+C37635410 1  # 40 MHz crystal 
+C5137195  1  # IPEX connector
+
+# ESP32 RAW design, 16MB flash + 8MB ram
+C2913194  1  # ESP32-S3R8, integrated 8MB ram
+C97521    1  # W25Q128JVSIQ, 16MB flash, basic part
+C5203551  1  # 40 MHz crystal 
+C5137195  1  # IPEX connector
+
+# ESP32 module with integrated antenna, 8MB flash + 2MB ram
+C2913204 1  # ESP32-S3-WROOM-1-N8R2
+
+# ESP32 module with integrated antenna, 8MB flash + 8 MB ram
+C2913201 1  # ESP32-S3-WROOM-1-N8R8
+
+# ESP32 module with external antenna, 8MB flash + 2MB ram
+C3013944 1  # ESP32-S3-WROOM-1U-N8R2
+
+# ESP32 module with external antenna, 8MB flash + 8MB ram
+C2980300 1  # ESP32-S3-WROOM-1U-N8R8

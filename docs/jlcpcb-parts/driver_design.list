@@ -1,0 +1,29 @@
+# MOSFET driver
+C8545    12  # N-ch mosfet
+C15127   3   # P-ch mosfet
+C167994  3   # Inductor 8m2
+C2932326 1   # MT3608 booster
+C191023  1   # Schottky diode
+C167971  1   # Inductor 22u
+
+# RS232 driver
+C6853    1  # RS232 3 channels driver
+C2128    6  # Diode for noise reduction
+
+# Gate driver
+C8545    6   # N-ch mosfet
+C167994  3   # Inductor 8m2
+C2932326 1   # MT3608 booster
+C191023  1   # Schottky diode
+C167971  1   # Inductor 22u
+C5804631 3   # Gate driver IR2104
+
+# DRV8300 gate driver
+C8545     6   # N-ch mosfet
+C167994   3   # Inductor 8m2
+C2932326  1   # MT3608 booster
+C191023   1   # Schottky diode
+C167971   1   # Inductor 22u
+C3036056  1   # Gate driver
+
+
