@@ -58,7 +58,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "starved_thermal|110683402|107268764|e11b80ce-d5e8-46ac-a756-020d1f0e989c|af92ae62-ed97-4d90-80fc-00b9c71f101d|F.Cu",
+          "goo enough"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -512,7 +517,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 300,
+    "annotate_start_num": 0,
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
