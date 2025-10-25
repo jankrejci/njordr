@@ -3372,12 +3372,6 @@
 		(uuid "c9f922cf-4e29-4023-bfdd-0e795e2c80f5")
 	)
 	(junction
-		(at 254 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "caa1595e-48c2-4927-8b16-1eedce0c987b")
-	)
-	(junction
 		(at 265.43 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3564,16 +3558,6 @@
 			(type default)
 		)
 		(uuid "26d3d0be-478b-49b8-a2ab-7f45e4685daf")
-	)
-	(wire
-		(pts
-			(xy 224.79 110.49) (xy 236.22 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "272d195b-eb6e-4c5a-923c-fb03c1de9864")
 	)
 	(wire
 		(pts
@@ -3767,16 +3751,6 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 120.65) (xy 224.79 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "535ad6ea-1fc4-4419-93b4-e400bb44be63")
-	)
-	(wire
-		(pts
 			(xy 39.37 170.18) (xy 39.37 172.72)
 		)
 		(stroke
@@ -3794,6 +3768,16 @@
 			(type default)
 		)
 		(uuid "542f6cea-9f2c-42c6-a65a-664c4f2e7a27")
+	)
+	(wire
+		(pts
+			(xy 237.49 120.65) (xy 243.84 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56764f46-e539-4783-a425-a9e9873a732d")
 	)
 	(wire
 		(pts
@@ -3977,7 +3961,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 120.65) (xy 236.22 120.65)
+			(xy 224.79 120.65) (xy 229.87 120.65)
 		)
 		(stroke
 			(width 0)
@@ -4074,16 +4058,6 @@
 			(type default)
 		)
 		(uuid "8e5836dd-bd32-4dbc-913e-2bd5af6e9e1d")
-	)
-	(wire
-		(pts
-			(xy 254 110.49) (xy 254 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fead7d5-d7bb-438c-8a9b-eea83c6ad71d")
 	)
 	(wire
 		(pts
@@ -4367,13 +4341,13 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 110.49) (xy 254 110.49)
+			(xy 251.46 120.65) (xy 254 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c6aedc70-aebb-48ad-8df3-bac6db063c71")
+		(uuid "c936e2ca-002f-4386-9b47-d9e4394951a5")
 	)
 	(wire
 		(pts
@@ -4674,16 +4648,6 @@
 			(type default)
 		)
 		(uuid "fe3388b0-6f7c-4449-9998-5f52d2d45cfb")
-	)
-	(wire
-		(pts
-			(xy 243.84 120.65) (xy 254 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffaee6ac-f57f-4f4e-ab0a-b009346267a5")
 	)
 	(label "ECHO_IN"
 		(at 102.87 233.68 180)
@@ -5290,6 +5254,83 @@
 			(project "njordr-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/55a1aa29-8230-4b58-97dd-4caaf3e17561"
 					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 233.68 120.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d56d5b6-f43c-4127-9bab-9e16e164596c")
+		(property "Reference" "R25"
+			(at 233.68 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3k"
+			(at 233.68 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "njordr:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 233.68 118.872 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/21904-0603WAF1001T5E/C21190"
+			(at 233.68 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 233.68 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4211"
+			(at 233.68 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "383c6063-62dc-450f-8590-2001de4903d6")
+		)
+		(pin "2"
+			(uuid "8ea820e4-c5d0-47d0-82b8-665dd3949957")
+		)
+		(instances
+			(project "njordr-board"
+				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/55a1aa29-8230-4b58-97dd-4caaf3e17561"
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -6658,83 +6699,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 240.03 110.49 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "352524ec-ac14-42a7-b2bf-9f139226368c")
-		(property "Reference" "R26"
-			(at 240.03 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "120k"
-			(at 240.03 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "njordr:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 240.03 108.712 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/21904-0603WAF1001T5E/C21190"
-			(at 240.03 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 240.03 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 240.03 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "090c0855-1b28-4b73-9210-ee8c0243d5e5")
-		)
-		(pin "2"
-			(uuid "9458fada-c439-4e81-9d2b-e5edc2f7a07a")
-		)
-		(instances
-			(project "njordr-board"
-				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/55a1aa29-8230-4b58-97dd-4caaf3e17561"
-					(reference "R26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+24V")
 		(at 55.88 41.91 0)
 		(unit 1)
@@ -6817,7 +6781,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1k"
 			(at 203.2 116.84 90)
 			(effects
 				(font
@@ -6852,7 +6816,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15401"
+		(property "LCSC" "C21190"
 			(at 203.2 120.65 0)
 			(effects
 				(font
@@ -7140,7 +7104,7 @@
 				)
 			)
 		)
-		(property "Value" "30k"
+		(property "Value" "3k"
 			(at 218.44 116.84 90)
 			(effects
 				(font
@@ -7175,7 +7139,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C4211"
 			(at 218.44 120.65 90)
 			(effects
 				(font
@@ -8640,6 +8604,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 247.65 120.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7fd3ae35-0170-40a0-94e1-d0e6f850f48d")
+		(property "Reference" "R26"
+			(at 247.65 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3k"
+			(at 247.65 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "njordr:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 247.65 118.872 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/21904-0603WAF1001T5E/C21190"
+			(at 247.65 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 247.65 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4211"
+			(at 247.65 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b7063b5-086d-47ea-b9bb-214b945ede3a")
+		)
+		(pin "2"
+			(uuid "7ed3ccd5-cba7-4d14-b8fd-026cf0d0db04")
+		)
+		(instances
+			(project "njordr-board"
+				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/55a1aa29-8230-4b58-97dd-4caaf3e17561"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "TL974IPWR:TL974IPWR")
 		(at 68.58 184.15 0)
 		(unit 5)
@@ -8867,7 +8908,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C21190"
 			(at 265.43 142.24 90)
 			(effects
 				(font
@@ -8984,7 +9025,7 @@
 				)
 			)
 		)
-		(property "Value" "20k"
+		(property "Value" "2k"
 			(at 187.96 116.84 90)
 			(effects
 				(font
@@ -9019,7 +9060,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C22975"
 			(at 187.96 120.65 90)
 			(effects
 				(font
@@ -11724,83 +11765,6 @@
 			(project ""
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/55a1aa29-8230-4b58-97dd-4caaf3e17561"
 					(reference "U7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 240.03 120.65 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f96e667a-4225-4188-8bb8-92f47735ad1c")
-		(property "Reference" "R25"
-			(at 240.03 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "120k"
-			(at 240.03 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "njordr:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 240.03 118.872 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/21904-0603WAF1001T5E/C21190"
-			(at 240.03 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 240.03 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 240.03 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "232a5e0d-c2d4-4eb3-9548-3112b38a4fd9")
-		)
-		(pin "2"
-			(uuid "2799155e-372a-48ad-99c3-a8577306fb95")
-		)
-		(instances
-			(project "njordr-board"
-				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/55a1aa29-8230-4b58-97dd-4caaf3e17561"
-					(reference "R25")
 					(unit 1)
 				)
 			)
