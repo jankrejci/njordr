@@ -3401,16 +3401,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 76.2) (xy 119.38 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1fac0621-71b1-4bc1-8d4f-b26b4842c01e")
-	)
-	(wire
-		(pts
 			(xy 45.72 67.31) (xy 49.53 67.31)
 		)
 		(stroke
@@ -4607,6 +4597,15 @@
 				(hide yes)
 			)
 		)
+		(property "Label" "GND"
+			(at 127 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "abd87182-53da-4334-93d7-9da8dffe5950")
 		)
@@ -5496,74 +5495,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 119.38 76.2 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "383ebea7-b7d3-41d1-8dc8-b8ce28b11f27")
-		(property "Reference" "T7"
-			(at 121.92 72.8979 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 121.92 74.1679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 124.46 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 119.38 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "81973e6c-2f63-4909-bd2b-cd40d05c6b81")
-		)
-		(instances
-			(project "njordr-board"
-				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/085e2257-4ead-4630-86ba-fd69b8cd726d"
-					(reference "T7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L")
 		(at 68.58 52.07 90)
 		(unit 1)
@@ -6125,6 +6056,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 95.25 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Label" "24V"
 			(at 95.25 53.34 0)
 			(effects
 				(font
@@ -6714,6 +6654,15 @@
 				(hide yes)
 			)
 		)
+		(property "Label" "3V3"
+			(at 49.53 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0736b32b-919b-4ac7-8e4c-0d71ce4413ba")
 		)
@@ -6721,73 +6670,6 @@
 			(project "njordr-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/085e2257-4ead-4630-86ba-fd69b8cd726d"
 					(reference "T3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 119.38 82.55 180)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "910f1795-3920-4f8b-bcdc-c4886682f814")
-		(property "Reference" "#PWR054"
-			(at 119.38 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 119.38 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 119.38 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c116e569-a7b0-48e5-ace5-a373cd119502")
-		)
-		(instances
-			(project "njordr-board"
-				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/085e2257-4ead-4630-86ba-fd69b8cd726d"
-					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -6839,6 +6721,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 288.29 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Label" "5V"
 			(at 288.29 237.49 0)
 			(effects
 				(font
@@ -7253,6 +7144,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 311.15 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Label" "3V3"
 			(at 311.15 237.49 0)
 			(effects
 				(font
@@ -7896,8 +7796,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "efe8debc-5458-40ae-949a-44df74fb5ca5")
-		(property "Reference" "IC101"
-			(at 215.9 48.895 0)
+		(property "Reference" "IC1"
+			(at 215.9 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7905,7 +7805,7 @@
 			)
 		)
 		(property "Value" "DRV8300DPWR"
-			(at 215.9 51.435 0)
+			(at 215.9 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8053,7 +7953,7 @@
 		(instances
 			(project ""
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/085e2257-4ead-4630-86ba-fd69b8cd726d"
-					(reference "IC101")
+					(reference "IC1")
 					(unit 1)
 				)
 			)
