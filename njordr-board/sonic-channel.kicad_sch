@@ -2727,6 +2727,15 @@
 				(hide yes)
 			)
 		)
+		(property "Label" "SL"
+			(at 154.94 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "287cb93a-45eb-4310-afff-afa4e41c5f15")
 		)
@@ -3830,6 +3839,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 163.83 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Label" "SH"
 			(at 163.83 105.41 0)
 			(effects
 				(font
@@ -5010,6 +5028,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 260.35 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Label" "RAW"
 			(at 260.35 66.04 0)
 			(effects
 				(font
