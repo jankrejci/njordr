@@ -1,4 +1,4 @@
-(footprint "TestPoint_Pad_1.0x1.0mm"
+(footprint "TestPoint-Pad-1.0x1.0"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "TestPoint_Pad_1.0x1.0mm"
+	(property "Value" "TestPoint-Pad-1.0x1.0"
 		(at 0 1.55 0)
 		(layer "F.Fab")
 		(hide yes)

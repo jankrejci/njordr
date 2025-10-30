@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "njordr")(type "KiCad")(uri "${KIPRJMOD}/../components/njordr.kicad_sym")(options "")(descr ""))
+)

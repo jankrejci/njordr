@@ -308,7 +308,7 @@
 		(uuid "62d357cb-8384-4426-b9b5-05fbb391d916")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../components/SOT-23.step"
+	(model "${KIPRJMOD}/../components/packages/SOT-23.step"
 		(offset
 			(xyz 0 0 0)
 		)

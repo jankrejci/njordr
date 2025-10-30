@@ -1,14 +1,14 @@
-(footprint "L_Axial_L12.0mm_D5.0mm_P15.24mm_Horizontal_Fastron_MISC"
+(footprint "L-Axial-L7.0-D3.3mm-P10.16"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Inductor, Axial series, Axial, Horizontal, pin pitch=15.24mm, length*diameter=12*5mm^2, Fastron, MISC, http://cdn-reichelt.de/documents/datenblatt/B400/DS_MISC.pdf")
-	(tags "Inductor Axial series Axial Horizontal pin pitch 15.24mm  length 12mm diameter 5mm Fastron MISC")
+	(descr "Inductor, Axial series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=7*3.3mm^2, Fastron, MICC, http://www.fastrongroup.com/image-show/70/MICC.pdf?type=Complete-DataSheet&productType=series")
+	(tags "Inductor Axial series Axial Horizontal pin pitch 10.16mm  length 7mm diameter 3.3mm Fastron MICC")
 	(property "Reference" "REF**"
-		(at 7.62 -3.62 0)
+		(at 5.08 -2.6 0)
 		(layer "F.SilkS")
-		(uuid "008ca8b2-9eba-43bf-bd86-2c945b7e5c66")
+		(uuid "e99f48fb-b86d-46fa-86b1-c3b3e226e083")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -16,11 +16,11 @@
 			)
 		)
 	)
-	(property "Value" "L_Axial_L12.0mm_D5.0mm_P15.24mm_Horizontal_Fastron_MISC"
-		(at 7.62 3.62 0)
+	(property "Value" "L-Axial-L7.0-D3.3mm-P10.16"
+		(at 5.08 2.77 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c2b3fd8d-c93a-4d15-8961-46f1d9780b6c")
+		(uuid "a0730554-dffb-4d1b-97b3-bc8ae8dfe3bb")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "14ac7251-a811-4b2a-989f-72eb0ed602c6")
+		(uuid "ab13a4e1-1374-4144-a8f8-d9cc49d11f0b")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0660b082-6733-41d5-b358-a079e8ae5d55")
+		(uuid "6af515fd-5743-4c34-9752-85d40aedac54")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -54,82 +54,82 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start 1.44 0)
-		(end 1.5 0)
+		(start 1.04 0)
+		(end 1.46 0)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "d1142e10-00bf-47c4-8752-e78c81a38736")
+		(uuid "f8f3cfaf-4cf1-4bb1-924e-106696282dfe")
 	)
 	(fp_line
-		(start 13.8 0)
-		(end 13.74 0)
+		(start 9.12 0)
+		(end 8.7 0)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "baa105fd-2b54-495d-a3d7-fcff0a23e6f4")
+		(uuid "8d71829c-e533-4015-bab5-d945a46c6995")
 	)
 	(fp_rect
-		(start 1.5 -2.62)
-		(end 13.74 2.62)
+		(start 1.46 -1.77)
+		(end 8.7 1.77)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "db23ca9c-0b09-4708-94b8-8454436c316c")
+		(uuid "761da413-0c14-4648-bc32-d09173d7a956")
 	)
 	(fp_rect
-		(start -1.45 -2.75)
-		(end 16.69 2.75)
+		(start -1.05 -1.9)
+		(end 11.21 1.9)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "6135787f-00fa-4973-aec6-b9d0d7e0da47")
+		(uuid "45108655-cd87-4a44-aa9c-4dd4309db1f2")
 	)
 	(fp_line
 		(start 0 0)
-		(end 1.62 0)
+		(end 1.58 0)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "e4c1a944-99a8-4f41-be78-dad5315f601e")
+		(uuid "62db31a7-b840-4f1f-a15f-3ec8d0be1dba")
 	)
 	(fp_line
-		(start 15.24 0)
-		(end 13.62 0)
+		(start 10.16 0)
+		(end 8.58 0)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "60d15b12-6f81-49a2-bdab-5685ef3b4ac8")
+		(uuid "b7cb0ddd-f9bd-49f8-af99-2763a4f97db3")
 	)
 	(fp_rect
-		(start 1.62 -2.5)
-		(end 13.62 2.5)
+		(start 1.58 -1.65)
+		(end 8.58 1.65)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "bce312e3-b39f-4bf0-8252-f9328aab381b")
+		(uuid "4273b1ee-e4d4-452f-9d07-7f8454bfd2ed")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 7.62 0 0)
+		(at 5.08 0 0)
 		(layer "F.Fab")
-		(uuid "b4dd71c7-a1fb-4fc7-98d7-621385904006")
+		(uuid "84638e88-2acb-4995-8c30-b6e86d70c1af")
 		(effects
 			(font
 				(size 0.4 0.4)
@@ -139,22 +139,22 @@
 	)
 	(pad "1" thru_hole circle
 		(at 0 0)
-		(size 2.4 2.4)
-		(drill 1.2)
+		(size 1.6 1.6)
+		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "c4ccb9e2-4712-46fe-9df0-ecc8d6dba5e5")
+		(uuid "681e8583-bf4b-4313-b53e-aab28c3752fc")
 	)
 	(pad "2" thru_hole circle
-		(at 15.24 0)
-		(size 2.4 2.4)
-		(drill 1.2)
+		(at 10.16 0)
+		(size 1.6 1.6)
+		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "0a985117-30c6-4593-ab25-7fca726dbc4d")
+		(uuid "89c63e37-3ccb-4b01-a9de-008ef6a97dba")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../components/L_Axial_L12.0mm_D5.0mm_P15.24mm_Horizontal_Fastron_MISC.step"
+	(model "${KIPRJMOD}/../components/packages/L-Axial-L7.0-D3.3-P10.16.step"
 		(offset
 			(xyz 0 0 0)
 		)

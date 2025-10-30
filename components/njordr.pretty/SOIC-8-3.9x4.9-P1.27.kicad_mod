@@ -1,4 +1,4 @@
-(footprint "SOIC-8_3.9x4.9mm_P1.27mm"
+(footprint "SOIC-8-3.9x4.9-P1.27"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "SOIC-8_3.9x4.9mm_P1.27mm"
+	(property "Value" "SOIC-8-3.9x4.9-P1.27"
 		(at 0 3.4 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -305,7 +305,7 @@
 		(uuid "cb1698d1-aee1-4eb3-a5bd-407e0bff80bd")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../components/SO-8_3.9x4.9mm_P1.27mm.step"
+	(model "${KIPRJMOD}/../components/packages/SO-8-3.9x4.9-P1.27.step"
 		(offset
 			(xyz 0 0 0)
 		)
