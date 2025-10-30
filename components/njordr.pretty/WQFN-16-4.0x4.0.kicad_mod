@@ -258,7 +258,7 @@
 		(uuid "7ed64557-0a73-416d-8ab7-b9af9c37fa03")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../components/WQFN-16-4.0x4.0.stp"
+	(model "${KIPRJMOD}/../components/packages/WQFN-16-4.0x4.0.stp"
 		(offset
 			(xyz 0 0 0)
 		)

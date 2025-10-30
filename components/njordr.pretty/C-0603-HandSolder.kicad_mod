@@ -1,4 +1,4 @@
-(footprint "C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+(footprint "C-0603-HandSolder"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+	(property "Value" "C-0603-HandSolder"
 		(at 0 1.43 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -179,7 +179,7 @@
 		(uuid "baa3d854-3f6f-40c4-bb0a-ac8d7c32103c")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../components/C_0603_1608Metric.step"
+	(model "${KIPRJMOD}/../components/packages/C-0603.step"
 		(offset
 			(xyz 0 0 0)
 		)

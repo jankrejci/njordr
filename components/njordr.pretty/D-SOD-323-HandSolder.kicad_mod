@@ -1,4 +1,4 @@
-(footprint "D_SOD-323_HandSoldering"
+(footprint "D-SOD-323-HandSolder"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "D_SOD-323_HandSoldering"
+	(property "Value" "D-SOD-323-HandSolder"
 		(at 0.1 1.9 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -191,7 +191,7 @@
 		(uuid "41e1d9b8-ef28-46f1-8f52-7a4f0aaa066b")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../components/D_SOD-323.step"
+	(model "${KIPRJMOD}/../components/packages/D-SOD-323.step"
 		(offset
 			(xyz 0 0 0)
 		)

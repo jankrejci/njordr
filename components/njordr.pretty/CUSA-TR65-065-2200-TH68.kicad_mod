@@ -1,4 +1,4 @@
-(footprint "Buzzer_D14mm_H9mm_P5mm"
+(footprint "CUSA-TR65-065-2200-TH68"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -165,7 +165,7 @@
 		(uuid "335905e3-9ef6-4769-8b60-130204593459")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../components/Same_Sky_CUSA-TR65-065-2200-TH68.step"
+	(model "${KIPRJMOD}/../components/packages/CUSA-TR65-065-2200-TH68.step"
 		(offset
 			(xyz 0 0 11)
 		)

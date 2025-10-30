@@ -1,4 +1,4 @@
-(footprint "PinHeader_1x06_P2.54mm_Vertical"
+(footprint "PinHeader-1x06-P2.54mm-Vertical"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "PinHeader_1x06_P2.54mm_Vertical"
+	(property "Value" "PinHeader-1x06-P2.54mm-Vertical"
 		(at 0 15.08 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -252,7 +252,7 @@
 		(uuid "cad2d297-f7c4-40b3-8796-2eb83d2a9afc")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../components/PinHeader_1x06_P2.54mm_Vertical.step"
+	(model "${KIPRJMOD}/../components/packages/PinHeader-1x06-P2.54-Vertical.step"
 		(offset
 			(xyz 0 0 0)
 		)

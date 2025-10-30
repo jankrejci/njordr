@@ -291,7 +291,7 @@
 		(uuid "e4cf5a10-a190-4a73-b04e-e2dea76c418b")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../components/TSSOP-14-4.4x5.0.stp"
+	(model "${KIPRJMOD}/../components/packages/TSSOP-14-4.4x5.0.stp"
 		(offset
 			(xyz 0 0 0)
 		)
