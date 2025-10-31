@@ -1433,7 +1433,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 143.51) (xy 64.77 146.05)
+			(xy 209.55 90.17) (xy 209.55 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1473,7 +1473,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 80.01) (xy 171.45 82.55)
+			(xy 64.77 130.81) (xy 64.77 133.35)
 		)
 		(stroke
 			(width 0)
@@ -1523,7 +1523,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 90.17) (xy 171.45 92.71)
+			(xy 64.77 140.97) (xy 64.77 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1563,7 +1563,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 133.35) (xy 64.77 135.89)
+			(xy 209.55 80.01) (xy 209.55 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1736,7 +1736,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "njordr:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "njordr:C-0603-HandSolder"
 			(at 60.6552 91.44 0)
 			(effects
 				(font
@@ -1789,7 +1789,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 64.77 133.35 0)
+		(at 209.55 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1798,7 +1798,7 @@
 		(fields_autoplaced yes)
 		(uuid "0c5d0b31-1c49-476d-8491-8fc3aa37657c")
 		(property "Reference" "#PWR019"
-			(at 64.77 137.16 0)
+			(at 209.55 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1807,7 +1807,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 64.77 128.27 0)
+			(at 209.55 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1816,7 +1816,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 133.35 0)
+			(at 209.55 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1825,7 +1825,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 133.35 0)
+			(at 209.55 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1834,7 +1834,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 64.77 133.35 0)
+			(at 209.55 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1879,7 +1879,7 @@
 				)
 			)
 		)
-		(property "Footprint" "njordr:DSBGA-6-1.49x1.49"
+		(property "Footprint" "njordr:DSBGA-6-1.5x1.5"
 			(at 102.87 178.74 0)
 			(effects
 				(font
@@ -1982,7 +1982,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "njordr:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "njordr:C-0603-HandSolder"
 			(at 183.8452 90.17 0)
 			(effects
 				(font
@@ -2035,7 +2035,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 171.45 80.01 0)
+		(at 64.77 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2044,7 +2044,7 @@
 		(fields_autoplaced yes)
 		(uuid "12df14e5-2434-4c00-9f57-9c82620a9407")
 		(property "Reference" "#PWR011"
-			(at 171.45 83.82 0)
+			(at 64.77 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2053,7 +2053,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 171.45 74.93 0)
+			(at 64.77 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2062,7 +2062,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 80.01 0)
+			(at 64.77 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2071,7 +2071,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 80.01 0)
+			(at 64.77 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2080,7 +2080,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 171.45 80.01 0)
+			(at 64.77 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2259,7 +2259,7 @@
 				)
 			)
 		)
-		(property "Footprint" "njordr:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "njordr:R-0603-HandSolder"
 			(at 110.49 140.208 90)
 			(effects
 				(font
@@ -2405,7 +2405,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "njordr:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "njordr:C-0805-HandSolder"
 			(at 199.0852 90.17 0)
 			(effects
 				(font
@@ -2616,7 +2616,7 @@
 				)
 			)
 		)
-		(property "Footprint" "njordr:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "njordr:R-0603-HandSolder"
 			(at 114.3 88.138 90)
 			(effects
 				(font
@@ -2937,7 +2937,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 171.45 86.36 0)
+		(at 64.77 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2946,7 +2946,7 @@
 		(fields_autoplaced yes)
 		(uuid "6732aac9-5630-43bf-9bd1-b383324c9388")
 		(property "Reference" "C2"
-			(at 175.26 85.0899 0)
+			(at 68.58 135.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2955,7 +2955,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 175.26 87.6299 0)
+			(at 68.58 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2963,8 +2963,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "njordr:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 172.4152 90.17 0)
+		(property "Footprint" "njordr:C-0603-HandSolder"
+			(at 65.7352 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2973,7 +2973,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 171.45 86.36 0)
+			(at 64.77 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2982,7 +2982,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 171.45 86.36 0)
+			(at 64.77 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2991,7 +2991,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at 171.45 86.36 0)
+			(at 64.77 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3016,7 +3016,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 171.45 92.71 0)
+		(at 64.77 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3025,7 +3025,7 @@
 		(fields_autoplaced yes)
 		(uuid "68039dae-ef0d-4f51-8825-561578c3c490")
 		(property "Reference" "#PWR012"
-			(at 171.45 99.06 0)
+			(at 64.77 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3034,7 +3034,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 171.45 97.79 0)
+			(at 64.77 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3043,7 +3043,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 92.71 0)
+			(at 64.77 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3052,7 +3052,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 92.71 0)
+			(at 64.77 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3061,7 +3061,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 171.45 92.71 0)
+			(at 64.77 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3173,7 +3173,7 @@
 				)
 			)
 		)
-		(property "Footprint" "njordr:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "njordr:R-0603-HandSolder"
 			(at 114.3 90.678 90)
 			(effects
 				(font
@@ -3494,7 +3494,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 64.77 146.05 0)
+		(at 209.55 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3503,7 +3503,7 @@
 		(fields_autoplaced yes)
 		(uuid "d39998b3-32cb-459f-ab53-b9a9ff692448")
 		(property "Reference" "#PWR020"
-			(at 64.77 152.4 0)
+			(at 209.55 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3512,7 +3512,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 64.77 151.13 0)
+			(at 209.55 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3521,7 +3521,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 146.05 0)
+			(at 209.55 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3530,7 +3530,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 146.05 0)
+			(at 209.55 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3539,7 +3539,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 64.77 146.05 0)
+			(at 209.55 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3880,7 +3880,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 64.77 139.7 0)
+		(at 209.55 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3889,7 +3889,7 @@
 		(fields_autoplaced yes)
 		(uuid "e9f03e2d-c417-4338-b9cb-46b05e715a0e")
 		(property "Reference" "C5"
-			(at 68.58 138.4299 0)
+			(at 213.36 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3898,7 +3898,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 68.58 140.9699 0)
+			(at 213.36 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3906,8 +3906,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "njordr:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 65.7352 143.51 0)
+		(property "Footprint" "njordr:C-0603-HandSolder"
+			(at 210.5152 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3916,7 +3916,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 139.7 0)
+			(at 209.55 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3925,7 +3925,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 64.77 139.7 0)
+			(at 209.55 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3934,7 +3934,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at 64.77 139.7 0)
+			(at 209.55 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3983,7 +3983,7 @@
 				)
 			)
 		)
-		(property "Footprint" "njordr:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "njordr:R-0603-HandSolder"
 			(at 110.49 137.668 90)
 			(effects
 				(font

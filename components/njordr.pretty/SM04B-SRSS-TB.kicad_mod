@@ -203,7 +203,7 @@
 		(uuid "cfb01853-7ac8-4ba4-9151-a49ddf4774bb")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD/../components/packages/SM04B-SRSS-TB.stp"
+	(model "${KIPRJMOD}/../components/packages/SM04B-SRSS-TB.stp"
 		(offset
 			(xyz 3 4 -0.3)
 		)
