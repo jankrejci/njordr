@@ -1620,7 +1620,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "TL974IPWR:TL974IPWR"
+		(symbol "njordr:TL974IPWR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1642,7 +1642,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(property "Footprint" "njordr:TSSOP-14-4.4x5.0"
 				(at 24.13 -94.92 0)
 				(effects
 					(font
@@ -1673,66 +1673,6 @@
 			)
 			(property "Height" "1.2"
 				(at 24.13 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Texas Instruments"
-				(at 24.13 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "TL974IPWR"
-				(at 24.13 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "595-TL974IPWR"
-				(at 24.13 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TL974IPWR?qs=vD%252BlfiDS0%252BPBlBVai5jirw%3D%3D"
-				(at 24.13 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" "TL974IPWR"
-				(at 24.13 -894.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tl974ipwr/texas-instruments?utm_currency=USD&region=nac"
-				(at 24.13 -994.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2079,7 +2019,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "TMUX7411FRRPR:TMUX741x"
+		(symbol "njordr:TMUX741x"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2092,7 +2032,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "TMUX741x"
+			(property "Value" "TMUX7412"
 				(at 21.59 12.7 0)
 				(effects
 					(font
@@ -2101,7 +2041,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "QFN65P400X400X80-17N-D"
+			(property "Footprint" "njordr:WQFN-16-4.0x4.0"
 				(at 21.59 -87.3 0)
 				(effects
 					(font
@@ -2121,7 +2061,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Analog Switch ICs +/-60-V fault-protected 1:1 (SPST) four-channel switches with 1.8-V logic (four active low)"
+			(property "Description" "Analog Switch ICs +/-60-V fault-protected 1:1 (SPST) four-channel switches with 1.8-V logic (four active high)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2140,63 +2080,12 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "Texas Instruments"
-				(at 21.59 -487.3 0)
+			(property "LCSC" "C2982617"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "TMUX7411FRRPR"
-				(at 21.59 -587.3 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "595-TMUX7411FRRPR"
-				(at 21.59 -687.3 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TMUX7411FRRPR?qs=IPgv5n7u5Qa8ZpT3ISMUyA%3D%3D"
-				(at 21.59 -787.3 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" "TMUX7411FRRPR"
-				(at 21.59 -887.3 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tmux7411frrpr/texas-instruments?region=nac"
-				(at 21.59 -987.3 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
 					(hide yes)
 				)
 			)
@@ -5114,7 +5003,7 @@
 				)
 			)
 		)
-		(property "Footprint" "njordr:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "njordr:R-0603-HandSolder"
 			(at 33.02 66.548 90)
 			(effects
 				(font
@@ -5123,7 +5012,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/16079-0603WAJ0103T5E/C15401"
+		(property "Datasheet" "~"
 			(at 33.02 64.77 0)
 			(effects
 				(font
@@ -5208,7 +5097,7 @@
 				)
 			)
 		)
-		(property "Footprint" "njordr:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "njordr:C-0603-HandSolder"
 			(at 40.3352 180.34 0)
 			(effects
 				(font
@@ -5217,7 +5106,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707083955945472"
+		(property "Datasheet" "~"
 			(at 39.37 176.53 0)
 			(effects
 				(font
@@ -5285,7 +5174,7 @@
 				)
 			)
 		)
-		(property "Footprint" "njordr:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "njordr:R-0603-HandSolder"
 			(at 233.68 118.872 90)
 			(effects
 				(font
@@ -5294,7 +5183,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/21904-0603WAF1001T5E/C21190"
+		(property "Datasheet" "~"
 			(at 233.68 120.65 0)
 			(effects
 				(font
@@ -5364,7 +5253,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "njordr:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "njordr:R-0603-HandSolder"
 			(at 225.298 50.8 90)
 			(effects
 				(font
@@ -5373,7 +5262,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/23534-0603WAF1503T5E/C22807"
+		(property "Datasheet" "~"
 			(at 223.52 50.8 0)
 			(effects
 				(font
@@ -5775,7 +5664,7 @@
 				)
 			)
 		)
-		(property "Footprint" "njordr:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "njordr:R-0603-HandSolder"
 			(at 204.47 58.928 90)
 			(effects
 				(font
@@ -5784,7 +5673,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/4597-0603WAF2201T5E/C4190"
+		(property "Datasheet" "~"
 			(at 204.47 57.15 0)
 			(effects
 				(font
@@ -5854,7 +5743,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "njordr:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "njordr:R-0603-HandSolder"
 			(at 118.618 66.04 90)
 			(effects
 				(font
@@ -5863,7 +5752,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/26546-0603WAF1003T5E/C25803"
+		(property "Datasheet" "~"
 			(at 116.84 66.04 0)
 			(effects
 				(font
@@ -5958,7 +5847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 82.55 233.68 0)
 			(effects
 				(font
@@ -5967,7 +5856,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 82.55 233.68 0)
 			(effects
 				(font
@@ -6044,7 +5933,7 @@
 				)
 			)
 		)
-		(property "Footprint" "njordr:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "njordr:C-0603-HandSolder"
 			(at 213.36 58.1152 0)
 			(effects
 				(font
@@ -6053,7 +5942,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/YAGEO-CC0603JRNPO9BN221/C106210"
+		(property "Datasheet" "~"
 			(at 217.17 57.15 0)
 			(effects
 				(font
@@ -6062,7 +5951,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ceraminc 220p 0603 NP0"
+		(property "Description" "Unpolarized capacitor"
 			(at 217.17 57.15 0)
 			(effects
 				(font
@@ -6096,17 +5985,17 @@
 		)
 	)
 	(symbol
-		(lib_id "TMUX7411FRRPR:TMUX741x")
+		(lib_id "njordr:TMUX741x")
 		(at 43.18 57.15 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f991474-9fee-40e8-acea-f836dd9149a5")
 		(property "Reference" "IC3"
-			(at 58.0233 41.91 0)
+			(at 58.1873 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6115,7 +6004,7 @@
 			)
 		)
 		(property "Value" "TMUX741x"
-			(at 58.0233 44.45 0)
+			(at 58.1873 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6143,7 +6032,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Analog Switch ICs +/-60-V fault-protected 1:1 (SPST) four-channel switches with 1.8-V logic (four active low)"
+		(property "Description" "Analog Switch ICs +/-60-V fault-protected 1:1 (SPST) four-channel switches with 1.8-V logic (four active high)"
 			(at 43.18 57.15 0)
 			(effects
 				(font
@@ -6391,7 +6280,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "njordr:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "njordr:C-0805-HandSolder"
 			(at 103.8352 180.34 0)
 			(effects
 				(font
@@ -6400,7 +6289,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/46786-CL21A226MAQNNNE/C45783"
+		(property "Datasheet" "~"
 			(at 102.87 176.53 0)
 			(effects
 				(font
@@ -6468,7 +6357,7 @@
 				)
 			)
 		)
-		(property "Footprint" "njordr:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "njordr:SOIC-8-3.9x4.9-P1.27"
 			(at 87.63 285.75 0)
 			(effects
 				(font
@@ -6629,7 +6518,7 @@
 				)
 			)
 		)
-		(property "Footprint" "njordr:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "njordr:R-0603-HandSolder"
 			(at 113.03 135.128 90)
 			(effects
 				(font
@@ -6638,7 +6527,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/16079-0603WAJ0103T5E/C15401"
+		(property "Datasheet" "~"
 			(at 113.03 133.35 0)
 			(effects
 				(font
@@ -6789,7 +6678,7 @@
 				)
 			)
 		)
-		(property "Footprint" "njordr:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "njordr:R-0603-HandSolder"
 			(at 203.2 118.872 90)
 			(effects
 				(font
@@ -6798,7 +6687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/16079-0603WAJ0103T5E/C15401"
+		(property "Datasheet" "~"
 			(at 203.2 120.65 0)
 			(effects
 				(font
@@ -6950,7 +6839,7 @@
 				)
 			)
 		)
-		(property "Footprint" "njordr:D_SOD-323_HandSoldering"
+		(property "Footprint" "njordr:D-SOD-323-HandSolder"
 			(at 247.65 135.89 0)
 			(effects
 				(font
@@ -6959,7 +6848,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/2485-1N4148WS/C2128"
+		(property "Datasheet" "~"
 			(at 247.65 135.89 0)
 			(effects
 				(font
@@ -7112,7 +7001,7 @@
 				)
 			)
 		)
-		(property "Footprint" "njordr:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "njordr:R-0603-HandSolder"
 			(at 218.44 118.872 90)
 			(effects
 				(font
@@ -7121,7 +7010,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/21904-0603WAF1001T5E/C21190"
+		(property "Datasheet" "~"
 			(at 218.44 120.65 0)
 			(effects
 				(font
@@ -7353,7 +7242,7 @@
 				)
 			)
 		)
-		(property "Footprint" "njordr:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "njordr:C-0603-HandSolder"
 			(at 28.9052 180.34 0)
 			(effects
 				(font
@@ -7362,7 +7251,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707083955945472"
+		(property "Datasheet" "~"
 			(at 27.94 176.53 0)
 			(effects
 				(font
@@ -7430,7 +7319,7 @@
 				)
 			)
 		)
-		(property "Footprint" "njordr:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "njordr:C-0603-HandSolder"
 			(at 213.36 45.4152 0)
 			(effects
 				(font
@@ -7439,7 +7328,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/2016-CL10C331JB8NNNC/C1664"
+		(property "Datasheet" "~"
 			(at 217.17 44.45 0)
 			(effects
 				(font
@@ -7448,7 +7337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ceramic 330p 0603 C0G"
+		(property "Description" "Unpolarized capacitor"
 			(at 217.17 44.45 0)
 			(effects
 				(font
@@ -7506,7 +7395,7 @@
 				)
 			)
 		)
-		(property "Footprint" "njordr:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "njordr:R-0603-HandSolder"
 			(at 134.62 118.872 90)
 			(effects
 				(font
@@ -7515,7 +7404,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/26546-0603WAF1003T5E/C25803"
+		(property "Datasheet" "~"
 			(at 134.62 120.65 0)
 			(effects
 				(font
@@ -7603,7 +7492,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "njordr:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "njordr:R-0603-HandSolder"
 			(at 212.598 66.04 90)
 			(effects
 				(font
@@ -7612,7 +7501,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/23889-0603WAF4701T5E/C23162"
+		(property "Datasheet" "~"
 			(at 210.82 66.04 0)
 			(effects
 				(font
@@ -7746,7 +7635,7 @@
 				)
 			)
 		)
-		(property "Footprint" "njordr:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "njordr:C-0603-HandSolder"
 			(at 67.0052 135.89 0)
 			(effects
 				(font
@@ -7755,7 +7644,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707083955945472"
+		(property "Datasheet" "~"
 			(at 66.04 132.08 0)
 			(effects
 				(font
@@ -8026,7 +7915,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "njordr:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "njordr:SOIC-8-3.9x4.9-P1.27"
 			(at 127 176.53 0)
 			(effects
 				(font
@@ -8391,7 +8280,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "njordr:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "njordr:R-0603-HandSolder"
 			(at 143.002 78.74 90)
 			(effects
 				(font
@@ -8400,7 +8289,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/16079-0603WAJ0103T5E/C15401"
+		(property "Datasheet" "~"
 			(at 144.78 78.74 0)
 			(effects
 				(font
@@ -8552,7 +8441,7 @@
 				)
 			)
 		)
-		(property "Footprint" "njordr:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "njordr:C-0603-HandSolder"
 			(at 80.9752 180.34 0)
 			(effects
 				(font
@@ -8561,7 +8450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707083955945472"
+		(property "Datasheet" "~"
 			(at 80.01 176.53 0)
 			(effects
 				(font
@@ -8629,7 +8518,7 @@
 				)
 			)
 		)
-		(property "Footprint" "njordr:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "njordr:R-0603-HandSolder"
 			(at 247.65 118.872 90)
 			(effects
 				(font
@@ -8638,7 +8527,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/21904-0603WAF1001T5E/C21190"
+		(property "Datasheet" "~"
 			(at 247.65 120.65 0)
 			(effects
 				(font
@@ -8681,7 +8570,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TL974IPWR:TL974IPWR")
+		(lib_id "njordr:TL974IPWR")
 		(at 68.58 184.15 0)
 		(unit 5)
 		(exclude_from_sim no)
@@ -8718,7 +8607,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/Gainsil-GS8054TR/C431327"
+		(property "Datasheet" "https://www.ti.com/lit/gpn/tl974"
 			(at 92.71 379.07 0)
 			(effects
 				(font
@@ -8757,7 +8646,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C431327"
+		(property "LCSC" "C128406"
 			(at 68.58 184.15 0)
 			(effects
 				(font
@@ -8881,7 +8770,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "njordr:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "njordr:R-0603-HandSolder"
 			(at 267.208 142.24 90)
 			(effects
 				(font
@@ -8890,7 +8779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/21904-0603WAF1001T5E/C21190"
+		(property "Datasheet" "~"
 			(at 265.43 142.24 0)
 			(effects
 				(font
@@ -8959,7 +8848,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "njordr:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "njordr:TestPoint-Pad-1.0x1.0"
 			(at 71.12 118.11 0)
 			(effects
 				(font
@@ -9033,7 +8922,7 @@
 				)
 			)
 		)
-		(property "Footprint" "njordr:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "njordr:R-0603-HandSolder"
 			(at 187.96 118.872 90)
 			(effects
 				(font
@@ -9042,7 +8931,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/21904-0603WAF1001T5E/C21190"
+		(property "Datasheet" "~"
 			(at 187.96 120.65 0)
 			(effects
 				(font
@@ -9085,7 +8974,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TL974IPWR:TL974IPWR")
+		(lib_id "njordr:TL974IPWR")
 		(at 125.73 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9119,7 +9008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/Gainsil-GS8054TR/C431327"
+		(property "Datasheet" "https://www.ti.com/lit/gpn/tl974"
 			(at 149.86 257.15 0)
 			(effects
 				(font
@@ -9158,7 +9047,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C431327"
+		(property "LCSC" "C128406"
 			(at 125.73 62.23 0)
 			(effects
 				(font
@@ -9415,7 +9304,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "njordr:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "njordr:TestPoint-Pad-1.0x1.0"
 			(at 270.51 132.08 0)
 			(effects
 				(font
@@ -9490,7 +9379,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "njordr:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "njordr:TestPoint-Pad-1.0x1.0"
 			(at 149.86 55.88 0)
 			(effects
 				(font
@@ -9566,7 +9455,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "njordr:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "njordr:C-0805-HandSolder"
 			(at 153.3652 180.34 0)
 			(effects
 				(font
@@ -9575,7 +9464,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/46786-CL21A226MAQNNNE/C45783"
+		(property "Datasheet" "~"
 			(at 152.4 176.53 0)
 			(effects
 				(font
@@ -9778,7 +9667,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "njordr:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "njordr:TestPoint-Pad-1.0x1.0"
 			(at 252.73 43.18 0)
 			(effects
 				(font
@@ -9961,7 +9850,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TL974IPWR:TL974IPWR")
+		(lib_id "njordr:TL974IPWR")
 		(at 195.58 133.35 0)
 		(mirror x)
 		(unit 3)
@@ -9996,7 +9885,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/Gainsil-GS8054TR/C431327"
+		(property "Datasheet" "https://www.ti.com/lit/gpn/tl974"
 			(at 219.71 -61.57 0)
 			(effects
 				(font
@@ -10035,7 +9924,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C431327"
+		(property "LCSC" "C128406"
 			(at 195.58 133.35 0)
 			(effects
 				(font
@@ -10159,7 +10048,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "njordr:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "njordr:C-0805-HandSolder"
 			(at 56.8452 135.89 0)
 			(effects
 				(font
@@ -10168,7 +10057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/46786-CL21A226MAQNNNE/C45783"
+		(property "Datasheet" "~"
 			(at 55.88 132.08 0)
 			(effects
 				(font
@@ -10211,7 +10100,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TL974IPWR:TL974IPWR")
+		(lib_id "njordr:TL974IPWR")
 		(at 226.06 133.35 0)
 		(mirror x)
 		(unit 4)
@@ -10246,7 +10135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/Gainsil-GS8054TR/C431327"
+		(property "Datasheet" "https://www.ti.com/lit/gpn/tl974"
 			(at 250.19 -61.57 0)
 			(effects
 				(font
@@ -10285,7 +10174,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C431327"
+		(property "LCSC" "C128406"
 			(at 226.06 133.35 0)
 			(effects
 				(font
@@ -10406,7 +10295,7 @@
 				)
 			)
 		)
-		(property "Footprint" "njordr:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "njordr:C-0603-HandSolder"
 			(at 141.9352 180.34 0)
 			(effects
 				(font
@@ -10415,7 +10304,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707083955945472"
+		(property "Datasheet" "~"
 			(at 140.97 176.53 0)
 			(effects
 				(font
@@ -10801,7 +10690,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "njordr:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "njordr:TestPoint-Pad-1.0x1.0"
 			(at 158.75 132.08 0)
 			(effects
 				(font
@@ -10874,7 +10763,7 @@
 				)
 			)
 		)
-		(property "Footprint" "njordr:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "njordr:C-0603-HandSolder"
 			(at 92.4052 180.34 0)
 			(effects
 				(font
@@ -10883,7 +10772,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707083955945472"
+		(property "Datasheet" "~"
 			(at 91.44 176.53 0)
 			(effects
 				(font
@@ -10953,7 +10842,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "njordr:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "njordr:R-0603-HandSolder"
 			(at 143.002 66.04 90)
 			(effects
 				(font
@@ -10962,7 +10851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/26546-0603WAF1003T5E/C25803"
+		(property "Datasheet" "~"
 			(at 144.78 66.04 0)
 			(effects
 				(font
@@ -11023,7 +10912,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TL974IPWR:TL974IPWR")
+		(lib_id "njordr:TL974IPWR")
 		(at 228.6 57.15 0)
 		(mirror x)
 		(unit 2)
@@ -11058,7 +10947,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/Gainsil-GS8054TR/C431327"
+		(property "Datasheet" "https://www.ti.com/lit/gpn/tl974"
 			(at 252.73 -137.77 0)
 			(effects
 				(font
@@ -11097,7 +10986,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C431327"
+		(property "LCSC" "C128406"
 			(at 228.6 57.15 0)
 			(effects
 				(font
@@ -11257,7 +11146,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Params" "dc=0 ampl=1 f=40k ac=1"
+		(property "Sim.Params" "dc=0 ampl=1 f=1k ac=1"
 			(at 74.93 243.7101 0)
 			(effects
 				(font
@@ -11395,7 +11284,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "njordr:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "njordr:C-0603-HandSolder"
 			(at 253.0348 138.43 0)
 			(effects
 				(font
@@ -11404,7 +11293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707083955945472"
+		(property "Datasheet" "~"
 			(at 254 142.24 0)
 			(effects
 				(font
@@ -11539,7 +11428,7 @@
 				)
 			)
 		)
-		(property "Footprint" "njordr:D_SOD-323_HandSoldering"
+		(property "Footprint" "njordr:D-SOD-323-HandSolder"
 			(at 212.09 128.27 0)
 			(effects
 				(font
@@ -11548,7 +11437,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/2485-1N4148WS/C2128"
+		(property "Datasheet" "~"
 			(at 212.09 128.27 0)
 			(effects
 				(font
@@ -11701,7 +11590,7 @@
 				)
 			)
 		)
-		(property "Footprint" "njordr:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "njordr:SOIC-8-3.9x4.9-P1.27"
 			(at 134.62 135.89 0)
 			(effects
 				(font

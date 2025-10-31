@@ -670,14 +670,44 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Label5",
+          "name": "Label5",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Label6",
+          "name": "Label6",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Label2",
+          "name": "Label2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Label3",
+          "name": "Label3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Label4",
+          "name": "Label4",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": true,
+      "include_excluded_from_bom": false,
       "name": "",
-      "sort_asc": true,
-      "sort_field": "Value"
+      "sort_asc": false,
+      "sort_field": "Footprint"
     },
     "connection_grid_size": 50.0,
     "drawing": {

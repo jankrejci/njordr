@@ -1180,7 +1180,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "njordr:PinHeader_1x06_P2.54mm_Vertical"
+		(property "Footprint" "njordr:PinHeader-1x06-P2.54mm-Vertical"
 			(at 60.96 91.44 0)
 			(effects
 				(font
@@ -1406,7 +1406,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "njordr:PinHeader_1x06_P2.54mm_Vertical"
+		(property "Footprint" "njordr:PinHeader-1x06-P2.54mm-Vertical"
 			(at 60.96 116.84 0)
 			(effects
 				(font
@@ -1497,7 +1497,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "njordr:PinHeader_1x06_P2.54mm_Vertical"
+		(property "Footprint" "njordr:PinHeader-1x06-P2.54mm-Vertical"
 			(at 60.96 66.04 0)
 			(effects
 				(font
