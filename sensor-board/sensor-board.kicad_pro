@@ -48,11 +48,36 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "silk_edge_clearance|154825289|88290000|09de575f-158b-4b5d-9f24-8b2d3fafa780|661f230e-88e9-4b98-a002-839c3767e7ea",
+          "acceptable"
+        ],
+        [
+          "silk_edge_clearance|155102262|88275314|09de575f-158b-4b5d-9f24-8b2d3fafa780|e5cdcab3-3d71-4cb7-b998-a3b303a0d254",
+          "acceptable"
+        ],
+        [
+          "silk_edge_clearance|155379221|90040000|09de575f-158b-4b5d-9f24-8b2d3fafa780|ba5aaae3-a851-4e7d-b432-c5f9d80bd2db",
+          "acceptable"
+        ],
+        [
+          "silk_edge_clearance|155379221|91789999|09de575f-158b-4b5d-9f24-8b2d3fafa780|b90bd095-6d54-4867-8cfd-58683f6c2e77",
+          "acceptable"
+        ],
+        [
+          "starved_thermal|170359703|81988660|e60bb9bb-adf9-41d5-ade5-b5d7c5d75c92|a0b446ab-f5ca-4a93-b2c9-5183e0af311b|F.Cu",
+          "good enoug"
+        ],
+        [
+          "text_on_edge_cuts|155379221|113837972|18058b89-100d-4f0d-8972-c7309b80700c|00000000-0000-0000-0000-000000000000",
+          "not found"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -117,9 +142,9 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.2,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -490,7 +515,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../../sensor-board.step",
       "svg": "",
       "vrml": ""
     },

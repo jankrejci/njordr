@@ -6,7 +6,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "IC"
+		(property "Reference" "U"
 			(at 24.13 7.62 0)
 			(effects
 				(font
@@ -44,7 +44,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Gate Drivers 100-V max simple 3-phase gate driver with bootstrap diodes 20-TSSOP -40 to 125"
+		(property "Description" "3-phase gate driver"
 			(at 0 0 0)
 			(effects
 				(font
@@ -63,63 +63,12 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 24.13 -494.92 0)
+		(property "LCSC" "C3036056"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "DRV8300DPWR"
-			(at 24.13 -594.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-DRV8300DPWR"
-			(at 24.13 -694.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/DRV8300DPWR?qs=eP2BKZSCXI6qJbKdYnGwBg%3D%3D"
-			(at 24.13 -794.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "DRV8300DPWR"
-			(at 24.13 -894.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/drv8300dpwr/texas-instruments?utm_currency=USD&region=nac"
-			(at 24.13 -994.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
 				(hide yes)
 			)
 		)
@@ -502,7 +451,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "HM"
+		(property "Reference" "U"
 			(at 31.75 7.62 0)
 			(effects
 				(font
@@ -540,7 +489,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "&plusmn;2% ultra-low-power, digital humidity sensor with temperature sensor in WCSP"
+		(property "Description" "Humidity sensor"
 			(at 0 0 0)
 			(effects
 				(font
@@ -729,7 +678,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Pressure sensor"
 			(at 0 0 0)
 			(effects
 				(font
@@ -951,7 +900,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "JST P1.0 connector"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1198,7 +1147,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Output Rail-to-Rail Very-Low-Noise Operational Amplifier"
+		(property "Description" "Operational Amplifier"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1597,7 +1546,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Analog Switch ICs +/-60-V fault-protected 1:1 (SPST) four-channel switches with 1.8-V logic (four active high)"
+		(property "Description" "Analog Switch"
 			(at 0 0 0)
 			(effects
 				(font

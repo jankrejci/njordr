@@ -6,7 +6,7 @@
 	(descr "SM04B-SRSS-TB(LFSN)")
 	(tags "Connector")
 	(property "Reference" "J**"
-		(at 2.822 -6.3 0)
+		(at -0.178 -4 0)
 		(layer "F.SilkS")
 		(uuid "e23ebaa3-230c-49bf-bd24-4857609684c5")
 		(effects
@@ -18,7 +18,7 @@
 		)
 	)
 	(property "Value" "SM04B-SRSS-TB(LFSN)"
-		(at 2.822 -1.556 0)
+		(at -0.178 0.744 0)
 		(layer "F.SilkS")
 		(hide yes)
 		(uuid "67acc624-4f3d-4861-81c9-cac18b024ee1")
@@ -30,7 +30,7 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 0 0 0)
+		(at -3 2.3 0)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "699e8af1-1787-4bd4-b1ce-86fa80c0f1ee")
@@ -42,7 +42,7 @@
 		)
 	)
 	(property "Description" ""
-		(at 0 0 0)
+		(at -3 2.3 0)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "4d7f5a81-0f84-4ef0-a7db-73e3f901f8b9")
@@ -55,8 +55,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start 0 -4.85)
-		(end 0 -1.87)
+		(start -3 -2.55)
+		(end -3 0.43)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -65,8 +65,8 @@
 		(uuid "554522a4-6646-45ad-9931-885f5b4e5847")
 	)
 	(fp_line
-		(start 0 -4.85)
-		(end 1.029 -4.85)
+		(start -3 -2.55)
+		(end -1.971 -2.55)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -75,8 +75,8 @@
 		(uuid "f96186d0-f46b-4a57-b172-84ab9d639334")
 	)
 	(fp_line
-		(start 1.094 0)
-		(end 4.903 0)
+		(start -1.906 2.3)
+		(end 1.903 2.3)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -85,8 +85,8 @@
 		(uuid "c22b700f-9acc-42c9-b8c9-e52bf9144ff7")
 	)
 	(fp_line
-		(start 6 -4.85)
-		(end 4.937 -4.85)
+		(start 3 -2.55)
+		(end 1.937 -2.55)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -95,8 +95,8 @@
 		(uuid "0827a718-09ab-49a4-8b74-48332a8bb4d2")
 	)
 	(fp_line
-		(start 6 -4.85)
-		(end 6 -1.87)
+		(start 3 -2.55)
+		(end 3 0.43)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -105,8 +105,8 @@
 		(uuid "f25a808b-1fa3-43ef-9e4b-d1997c66bf7c")
 	)
 	(fp_circle
-		(center 0.702 -5.642)
-		(end 0.702 -5.58163)
+		(center -2.298 -3.342)
+		(end -2.298 -3.28163)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -116,8 +116,8 @@
 		(uuid "1ae9e527-ad06-4ab2-acc5-6c2cf13a4f5c")
 	)
 	(fp_line
-		(start 0 -4.85)
-		(end 6 -4.85)
+		(start -3 -2.55)
+		(end 3 -2.55)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -126,8 +126,8 @@
 		(uuid "6f3956dd-6b91-40e6-a06a-29bc5499c7e3")
 	)
 	(fp_line
-		(start 0 0)
-		(end 0 -4.85)
+		(start -3 2.3)
+		(end -3 -2.55)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -136,8 +136,8 @@
 		(uuid "5aeb3c17-1860-479c-aa19-2acefe7e319d")
 	)
 	(fp_line
-		(start 6 -4.85)
-		(end 6 0)
+		(start 3 -2.55)
+		(end 3 2.3)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -146,8 +146,8 @@
 		(uuid "9d9e13e1-aef1-4d1c-b9b1-7c30e0d712c4")
 	)
 	(fp_line
-		(start 6 0)
-		(end 0 0)
+		(start 3 2.3)
+		(end -3 2.3)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -156,7 +156,7 @@
 		(uuid "e56fa30f-2e75-49bf-a7df-fef016b0575e")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 2.822 -2.6 0)
+		(at -0.178 -0.3 0)
 		(layer "F.Fab")
 		(uuid "17ee5461-039d-4237-8ca3-02ddbdaca773")
 		(effects
@@ -167,37 +167,37 @@
 		)
 	)
 	(pad "1" smd rect
-		(at 1.5 -4.661)
+		(at -1.5 -2.361)
 		(size 0.6 1.55)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b1d574d2-efad-4dc5-8f6e-b6f6cebd57e1")
 	)
 	(pad "2" smd rect
-		(at 2.5 -4.661)
+		(at -0.5 -2.361)
 		(size 0.6 1.55)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "cc440f9d-319f-464a-b169-9d37fb2e2a64")
 	)
 	(pad "3" smd rect
-		(at 3.5 -4.661)
+		(at 0.5 -2.361)
 		(size 0.6 1.55)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "aca4e436-aa14-484a-8535-4a8039333f71")
 	)
 	(pad "4" smd rect
-		(at 4.5 -4.661)
+		(at 1.5 -2.361)
 		(size 0.6 1.55)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e3efa36f-0dbf-4741-9533-457c3d54af0c")
 	)
 	(pad "MP" smd rect
-		(at 0.2 -0.786)
+		(at -2.8 1.514)
 		(size 1.2 1.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5d3c3336-7348-4466-93bb-404d6fb11ad1")
 	)
 	(pad "MP" smd rect
-		(at 5.8 -0.786)
+		(at 2.8 1.514)
 		(size 1.2 1.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "cfb01853-7ac8-4ba4-9151-a49ddf4774bb")
@@ -205,7 +205,7 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/../components/packages/SM04B-SRSS-TB.stp"
 		(offset
-			(xyz 3 4 -0.3)
+			(xyz 0 1.7 -0.3)
 		)
 		(scale
 			(xyz 1 1 1)
