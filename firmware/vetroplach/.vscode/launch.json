@@ -15,12 +15,7 @@
         {
           "coreIndex": 0,
           "programBinary": "${workspaceFolder}/target/xtensa-esp32s3-none-elf/release/vetroplach",
-          "rttEnabled": true,
-          "options": {
-            "env": {
-              "RUSTUP_TOOLCHAIN": "esp"
-            }
-          }
+          "rttEnabled": true
         }
       ],
       "consoleLogLevel": "Debug",
@@ -41,12 +36,7 @@
         {
           "coreIndex": 0,
           "programBinary": "${workspaceFolder}/target/xtensa-esp32s3-none-elf/debug/vetroplach",
-          "rttEnabled": true,
-          "options": {
-            "env": {
-              "RUSTUP_TOOLCHAIN": "esp"
-            }
-          }
+          "rttEnabled": true
         }
       ],
       "consoleLogLevel": "Info",
