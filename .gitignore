@@ -1,3 +1,6 @@
+# Claude Code per-machine settings
+.claude/settings.local.json
+
 # Nix build result symlinks
 result
 result-*
@@ -57,3 +60,6 @@ fp-info-cache
 
 # Local project settings
 *.kicad_prl
+
+# Python bytecode from the gitlint custom rules
+__pycache__/
