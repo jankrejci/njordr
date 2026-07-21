@@ -13,11 +13,6 @@
         "focus": false,
         "panel": "shared"
       },
-      "options": {
-        "env": {
-          "RUSTUP_TOOLCHAIN": "esp"
-        }
-      },
       "problemMatcher": ["$rustc"]
     },
     {
@@ -35,11 +30,6 @@
         "focus": false,
         "panel": "shared"
       },
-      "options": {
-        "env": {
-          "RUSTUP_TOOLCHAIN": "esp"
-        }
-      },
       "problemMatcher": ["$rustc"]
     },
     {
@@ -54,11 +44,6 @@
         "focus": false,
         "panel": "shared"
       },
-      "options": {
-        "env": {
-          "RUSTUP_TOOLCHAIN": "esp"
-        }
-      },
       "problemMatcher": ["$rustc"]
     },
     {
@@ -72,11 +57,6 @@
         "reveal": "always",
         "focus": false,
         "panel": "shared"
-      },
-      "options": {
-        "env": {
-          "RUSTUP_TOOLCHAIN": "esp"
-        }
       },
       "problemMatcher": ["$rustc"]
     },
