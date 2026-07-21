@@ -24,7 +24,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "njordr:TSSOP-20-4.4x6.5"
+		(property "Footprint" "vetroplach:TSSOP-20-4.4x6.5"
 			(at 24.13 -94.92 0)
 			(effects
 				(font
@@ -469,7 +469,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "njordr:DSBGA-6-1.5x1.5"
+		(property "Footprint" "vetroplach:DSBGA-6-1.5x1.5"
 			(at 31.75 -94.92 0)
 			(effects
 				(font
@@ -660,7 +660,7 @@
 				)
 			)
 		)
-		(property "Footprint" "njordr:QFN-8-HP203B"
+		(property "Footprint" "vetroplach:QFN-8-HP203B"
 			(at 0 -11.43 0)
 			(effects
 				(font
@@ -882,7 +882,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "njordr:SM04B-SRSS-TB"
+		(property "Footprint" "vetroplach:SM04B-SRSS-TB"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1127,7 +1127,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "njordr:TSSOP-14-4.4x5.0"
+		(property "Footprint" "vetroplach:TSSOP-14-4.4x5.0"
 			(at 24.13 -94.92 0)
 			(effects
 				(font
@@ -1526,7 +1526,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "njordr:WQFN-16-4.0x4.0"
+		(property "Footprint" "vetroplach:WQFN-16-4.0x4.0"
 			(at 21.59 -87.3 0)
 			(effects
 				(font

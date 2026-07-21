@@ -5,7 +5,7 @@
 	(uuid "38aa189a-8523-40f3-9262-ef8d02ca87b7")
 	(paper "A4")
 	(title_block
-		(title "NJORDR-BOARD")
+		(title "VETROPLACH-BOARD")
 		(date "2025-08-24")
 		(rev "0.1")
 	)
@@ -2337,7 +2337,7 @@
 			(uuid "33ee6c83-aaea-42e9-a257-87fc24c10d8a")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/07c57c4e-5514-42d0-9375-a10ad912c2ec"
 					(reference "#PWR0324")
 					(unit 1)
@@ -2411,7 +2411,7 @@
 			(uuid "db33a9f5-05f8-447c-9f1b-64e2753cd7c1")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/07c57c4e-5514-42d0-9375-a10ad912c2ec"
 					(reference "#PWR0333")
 					(unit 1)
@@ -2453,7 +2453,7 @@
 				)
 			)
 		)
-		(property "Footprint" "njordr:R-0603-HandSolder"
+		(property "Footprint" "vetroplach:R-0603-HandSolder"
 			(at 74.93 86.868 90)
 			(effects
 				(font
@@ -2496,7 +2496,7 @@
 			(uuid "d0e24f84-5966-4fc7-b9ba-c5d1ad04dd29")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/07c57c4e-5514-42d0-9375-a10ad912c2ec"
 					(reference "R301")
 					(unit 1)
@@ -2570,7 +2570,7 @@
 			(uuid "f246d5b9-1fcd-4075-b2d9-58a05964320b")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/07c57c4e-5514-42d0-9375-a10ad912c2ec"
 					(reference "#PWR0330")
 					(unit 1)
@@ -2614,7 +2614,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "njordr:C-0805-HandSolder"
+		(property "Footprint" "vetroplach:C-0805-HandSolder"
 			(at 261.3152 128.27 0)
 			(effects
 				(font
@@ -2657,7 +2657,7 @@
 			(uuid "d09740ee-09ac-4f54-93d0-02ac33784433")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/07c57c4e-5514-42d0-9375-a10ad912c2ec"
 					(reference "C304")
 					(unit 1)
@@ -2700,7 +2700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "njordr:TestPoint-Pad-1.0x1.0"
+		(property "Footprint" "vetroplach:TestPoint-Pad-1.0x1.0"
 			(at 160.02 105.41 0)
 			(effects
 				(font
@@ -2740,7 +2740,7 @@
 			(uuid "287cb93a-45eb-4310-afff-afa4e41c5f15")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/07c57c4e-5514-42d0-9375-a10ad912c2ec"
 					(reference "T307")
 					(unit 1)
@@ -2784,7 +2784,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "njordr:TestPoint-Pad-1.0x1.0"
+		(property "Footprint" "vetroplach:TestPoint-Pad-1.0x1.0"
 			(at 57.15 82.55 0)
 			(effects
 				(font
@@ -2815,7 +2815,7 @@
 			(uuid "5c26d594-c951-4581-a25c-953bd8a545d9")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/07c57c4e-5514-42d0-9375-a10ad912c2ec"
 					(reference "T302")
 					(unit 1)
@@ -2889,7 +2889,7 @@
 			(uuid "3159d366-770c-4bd0-aea3-33f2c7542060")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/07c57c4e-5514-42d0-9375-a10ad912c2ec"
 					(reference "#PWR0308")
 					(unit 1)
@@ -2930,7 +2930,7 @@
 				)
 			)
 		)
-		(property "Footprint" "njordr:L-Axial-L12.0-D5.0-P15.24"
+		(property "Footprint" "vetroplach:L-Axial-L12.0-D5.0-P15.24"
 			(at 97.79 109.22 0)
 			(effects
 				(font
@@ -2964,7 +2964,7 @@
 			(uuid "cd0a84a4-be7d-4103-b9de-5aa3637409a0")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/07c57c4e-5514-42d0-9375-a10ad912c2ec"
 					(reference "L301")
 					(unit 1)
@@ -3037,7 +3037,7 @@
 			(uuid "847f64a4-ddab-460a-9287-3fd079170b13")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/07c57c4e-5514-42d0-9375-a10ad912c2ec"
 					(reference "#PWR063")
 					(unit 1)
@@ -3079,7 +3079,7 @@
 				)
 			)
 		)
-		(property "Footprint" "njordr:C-0603-HandSolder"
+		(property "Footprint" "vetroplach:C-0603-HandSolder"
 			(at 246.6848 80.01 0)
 			(effects
 				(font
@@ -3122,7 +3122,7 @@
 			(uuid "c96adfbb-1e8f-40c0-92dc-3e79e8c46dfe")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/07c57c4e-5514-42d0-9375-a10ad912c2ec"
 					(reference "C306")
 					(unit 1)
@@ -3196,7 +3196,7 @@
 			(uuid "f34fa60e-cecb-47be-adbf-e6241e5fbd18")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/07c57c4e-5514-42d0-9375-a10ad912c2ec"
 					(reference "#PWR0336")
 					(unit 1)
@@ -3237,7 +3237,7 @@
 				)
 			)
 		)
-		(property "Footprint" "njordr:SOT-23"
+		(property "Footprint" "vetroplach:SOT-23"
 			(at 92.71 86.995 0)
 			(effects
 				(font
@@ -3286,7 +3286,7 @@
 			(uuid "3596ae77-ba25-42ce-8877-8988568f973a")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/07c57c4e-5514-42d0-9375-a10ad912c2ec"
 					(reference "Q301")
 					(unit 1)
@@ -3330,7 +3330,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "njordr:C-0603-HandSolder"
+		(property "Footprint" "vetroplach:C-0603-HandSolder"
 			(at 235.9152 128.27 0)
 			(effects
 				(font
@@ -3373,7 +3373,7 @@
 			(uuid "5ce2fed3-79bb-4227-88a4-ba21c2c31edf")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/07c57c4e-5514-42d0-9375-a10ad912c2ec"
 					(reference "C301")
 					(unit 1)
@@ -3447,7 +3447,7 @@
 			(uuid "75e2a9fa-ac61-4de9-88c3-3cd00a635653")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/07c57c4e-5514-42d0-9375-a10ad912c2ec"
 					(reference "#PWR0317")
 					(unit 1)
@@ -3489,7 +3489,7 @@
 				)
 			)
 		)
-		(property "Footprint" "njordr:C-1206-HandSolder"
+		(property "Footprint" "vetroplach:C-1206-HandSolder"
 			(at 250.19 67.6148 0)
 			(effects
 				(font
@@ -3532,7 +3532,7 @@
 			(uuid "11361599-a1cf-4050-8e6a-35a0b1a619fb")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/07c57c4e-5514-42d0-9375-a10ad912c2ec"
 					(reference "C303")
 					(unit 1)
@@ -3574,7 +3574,7 @@
 				)
 			)
 		)
-		(property "Footprint" "njordr:R-0603-HandSolder"
+		(property "Footprint" "vetroplach:R-0603-HandSolder"
 			(at 74.93 122.428 90)
 			(effects
 				(font
@@ -3617,7 +3617,7 @@
 			(uuid "44077fe7-d8f0-41c5-b12c-a2c2cf8edf05")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/07c57c4e-5514-42d0-9375-a10ad912c2ec"
 					(reference "R302")
 					(unit 1)
@@ -3661,7 +3661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "njordr:TestPoint-Pad-1.0x1.0"
+		(property "Footprint" "vetroplach:TestPoint-Pad-1.0x1.0"
 			(at 57.15 118.11 0)
 			(effects
 				(font
@@ -3692,7 +3692,7 @@
 			(uuid "8a824561-0504-484c-a1bd-23c271b49cfb")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/07c57c4e-5514-42d0-9375-a10ad912c2ec"
 					(reference "T303")
 					(unit 1)
@@ -3734,7 +3734,7 @@
 				)
 			)
 		)
-		(property "Footprint" "njordr:R-0603-HandSolder"
+		(property "Footprint" "vetroplach:R-0603-HandSolder"
 			(at 153.162 119.38 90)
 			(effects
 				(font
@@ -3777,7 +3777,7 @@
 			(uuid "7f9f6e0a-d230-4e77-a935-773d3c8304df")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/07c57c4e-5514-42d0-9375-a10ad912c2ec"
 					(reference "R303")
 					(unit 1)
@@ -3820,7 +3820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "njordr:TestPoint-Pad-1.0x1.0"
+		(property "Footprint" "vetroplach:TestPoint-Pad-1.0x1.0"
 			(at 168.91 105.41 0)
 			(effects
 				(font
@@ -3860,7 +3860,7 @@
 			(uuid "3e9ae4d3-9ef0-40a3-a2ca-f1b6734e724f")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/07c57c4e-5514-42d0-9375-a10ad912c2ec"
 					(reference "T306")
 					(unit 1)
@@ -3903,7 +3903,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "njordr:CUSA-TR65-065-2200-TH68"
+		(property "Footprint" "vetroplach:CUSA-TR65-065-2200-TH68"
 			(at 173.101 110.49 0)
 			(effects
 				(font
@@ -4010,7 +4010,7 @@
 			(uuid "bece5b05-29ed-4909-9a63-8d25e5da4ab6")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/07c57c4e-5514-42d0-9375-a10ad912c2ec"
 					(reference "#PWR0320")
 					(unit 1)
@@ -4084,7 +4084,7 @@
 			(uuid "ee2e7e90-36e2-4722-8fc7-500ca6b76377")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/07c57c4e-5514-42d0-9375-a10ad912c2ec"
 					(reference "#PWR0339")
 					(unit 1)
@@ -4125,7 +4125,7 @@
 				)
 			)
 		)
-		(property "Footprint" "njordr:SOT-23"
+		(property "Footprint" "vetroplach:SOT-23"
 			(at 92.71 122.555 0)
 			(effects
 				(font
@@ -4174,7 +4174,7 @@
 			(uuid "6daa524d-d58d-47c0-907a-2c3d3ec045a0")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/07c57c4e-5514-42d0-9375-a10ad912c2ec"
 					(reference "Q302")
 					(unit 1)
@@ -4248,7 +4248,7 @@
 			(uuid "6be30b9a-d09c-4948-92bd-f845c5aaca5c")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/07c57c4e-5514-42d0-9375-a10ad912c2ec"
 					(reference "#PWR0311")
 					(unit 1)
@@ -4292,7 +4292,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "njordr:D-SOD-323-HandSolder"
+		(property "Footprint" "vetroplach:D-SOD-323-HandSolder"
 			(at 241.935 76.2 0)
 			(effects
 				(font
@@ -4353,7 +4353,7 @@
 			(uuid "b9f761f6-743a-431c-8996-5af9f76ee6a5")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/07c57c4e-5514-42d0-9375-a10ad912c2ec"
 					(reference "D302")
 					(unit 1)
@@ -4394,7 +4394,7 @@
 				)
 			)
 		)
-		(property "Footprint" "njordr:C-0603-HandSolder"
+		(property "Footprint" "vetroplach:C-0603-HandSolder"
 			(at 78.74 96.8248 0)
 			(effects
 				(font
@@ -4437,7 +4437,7 @@
 			(uuid "3bf341bc-f1d4-4f34-a335-57871e6d35fd")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/07c57c4e-5514-42d0-9375-a10ad912c2ec"
 					(reference "C305")
 					(unit 1)
@@ -4481,7 +4481,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "njordr:TestPoint-Pad-1.0x1.0"
+		(property "Footprint" "vetroplach:TestPoint-Pad-1.0x1.0"
 			(at 57.15 95.25 0)
 			(effects
 				(font
@@ -4512,7 +4512,7 @@
 			(uuid "71b0ec92-25c1-49e8-93f9-444bc4542cd7")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/07c57c4e-5514-42d0-9375-a10ad912c2ec"
 					(reference "T305")
 					(unit 1)
@@ -4554,7 +4554,7 @@
 				)
 			)
 		)
-		(property "Footprint" "njordr:R-0805-HandSolder"
+		(property "Footprint" "vetroplach:R-0805-HandSolder"
 			(at 222.25 70.358 90)
 			(effects
 				(font
@@ -4597,7 +4597,7 @@
 			(uuid "d0dc4824-21a7-4948-ba5c-2900e4feafd6")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/07c57c4e-5514-42d0-9375-a10ad912c2ec"
 					(reference "R305")
 					(unit 1)
@@ -4670,7 +4670,7 @@
 			(uuid "7de805cc-af99-4dde-ad8b-2b59cf0f7a06")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/07c57c4e-5514-42d0-9375-a10ad912c2ec"
 					(reference "#PWR0321")
 					(unit 1)
@@ -4744,7 +4744,7 @@
 			(uuid "5b3dab25-8d6f-4479-b2d8-ed1fc38dd456")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/07c57c4e-5514-42d0-9375-a10ad912c2ec"
 					(reference "#PWR0314")
 					(unit 1)
@@ -4818,7 +4818,7 @@
 			(uuid "cbb0ac31-bc03-4f16-a655-290c5473eee7")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/07c57c4e-5514-42d0-9375-a10ad912c2ec"
 					(reference "#PWR0305")
 					(unit 1)
@@ -4892,7 +4892,7 @@
 			(uuid "106e19a5-6e1a-4458-bcc4-e5690539f02d")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/07c57c4e-5514-42d0-9375-a10ad912c2ec"
 					(reference "#PWR064")
 					(unit 1)
@@ -4966,7 +4966,7 @@
 			(uuid "64108955-e97d-4ed0-8268-aa30c32cf201")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/07c57c4e-5514-42d0-9375-a10ad912c2ec"
 					(reference "#PWR070")
 					(unit 1)
@@ -5009,7 +5009,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "njordr:TestPoint-Pad-1.0x1.0"
+		(property "Footprint" "vetroplach:TestPoint-Pad-1.0x1.0"
 			(at 265.43 66.04 0)
 			(effects
 				(font
@@ -5049,7 +5049,7 @@
 			(uuid "49f93765-608d-4165-8480-90e0af86f0e4")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/07c57c4e-5514-42d0-9375-a10ad912c2ec"
 					(reference "T301")
 					(unit 1)
@@ -5122,7 +5122,7 @@
 			(uuid "8383ca81-2974-44a6-830c-412753905919")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/07c57c4e-5514-42d0-9375-a10ad912c2ec"
 					(reference "#PWR069")
 					(unit 1)
@@ -5166,7 +5166,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "njordr:C-0603-HandSolder"
+		(property "Footprint" "vetroplach:C-0603-HandSolder"
 			(at 213.0552 128.27 0)
 			(effects
 				(font
@@ -5209,7 +5209,7 @@
 			(uuid "1f9b9a61-65e1-4c85-9be1-db2193749a1b")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/07c57c4e-5514-42d0-9375-a10ad912c2ec"
 					(reference "C307")
 					(unit 1)
@@ -5282,7 +5282,7 @@
 			(uuid "ab7fa14c-7c72-4e31-9ca1-1ccb16726fdf")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/07c57c4e-5514-42d0-9375-a10ad912c2ec"
 					(reference "#PWR0327")
 					(unit 1)
@@ -5326,7 +5326,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "njordr:C-0603-HandSolder"
+		(property "Footprint" "vetroplach:C-0603-HandSolder"
 			(at 224.4852 128.27 0)
 			(effects
 				(font
@@ -5369,7 +5369,7 @@
 			(uuid "4dfcafc9-7e04-4a96-9f36-6a72aadb987f")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/07c57c4e-5514-42d0-9375-a10ad912c2ec"
 					(reference "C308")
 					(unit 1)
@@ -5413,7 +5413,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "njordr:C-0603-HandSolder"
+		(property "Footprint" "vetroplach:C-0603-HandSolder"
 			(at 248.6152 128.27 0)
 			(effects
 				(font
@@ -5456,7 +5456,7 @@
 			(uuid "43ddedd8-dcf6-464f-84c6-1ac760fd3dea")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/07c57c4e-5514-42d0-9375-a10ad912c2ec"
 					(reference "C302")
 					(unit 1)
@@ -5500,7 +5500,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "njordr:R-0603-HandSolder"
+		(property "Footprint" "vetroplach:R-0603-HandSolder"
 			(at 214.122 76.2 90)
 			(effects
 				(font
@@ -5543,7 +5543,7 @@
 			(uuid "b248e2bc-d578-441e-bc7d-be8105c1ba59")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/07c57c4e-5514-42d0-9375-a10ad912c2ec"
 					(reference "R304")
 					(unit 1)
@@ -5587,7 +5587,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "njordr:TestPoint-Pad-1.0x1.0"
+		(property "Footprint" "vetroplach:TestPoint-Pad-1.0x1.0"
 			(at 57.15 106.68 0)
 			(effects
 				(font
@@ -5618,7 +5618,7 @@
 			(uuid "b54053e3-c290-4a32-a2db-6332d720be0a")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/07c57c4e-5514-42d0-9375-a10ad912c2ec"
 					(reference "T304")
 					(unit 1)
@@ -5662,7 +5662,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "njordr:D-SOD-323-HandSolder"
+		(property "Footprint" "vetroplach:D-SOD-323-HandSolder"
 			(at 224.155 76.2 0)
 			(effects
 				(font

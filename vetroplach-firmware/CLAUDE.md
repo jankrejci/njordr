@@ -62,7 +62,7 @@ When working on this project, always consider the resource constraints of embedd
 - **Keep commit messages clean** - Do not add Claude AI signatures, emojis, or attribution footers to commit messages
 
 ## Documentation Resources
-- **njordr-docs folder**: Contains technical reference materials and documentation at `../../njordr-docs/`
+- **vetroplach-docs folder**: Contains technical reference materials and documentation at `../../vetroplach-docs/`
   - ESP32-S3 technical reference manual excerpts
   - Hardware design documentation  
   - System architecture notes
@@ -73,7 +73,7 @@ When working on this project, always consider the resource constraints of embedd
 - **esp-idf repository**: C-based ESP-IDF reference at `../../esp-idf/` for inspiration and low-level implementation details
   - **Important**: Implementation must stay in Rust using esp-hal, but esp-idf can provide insights for hardware configuration
   - Useful for understanding GPIO Matrix signal routing, peripheral interconnects, and hardware register configurations
-- **CRITICAL**: All documentation sources (esp-hal, embassy, esp-idf, njordr-docs) are READ-ONLY references. DO NOT modify any files in these repositories unless explicitly required by the user. These are information sources only.
+- **CRITICAL**: All documentation sources (esp-hal, embassy, esp-idf, vetroplach-docs) are READ-ONLY references. DO NOT modify any files in these repositories unless explicitly required by the user. These are information sources only.
 
 ## Hardware-Specific Guidelines
 - **IO MUX vs GPIO Matrix**: For high-frequency signals (>1MHz), prefer IO MUX direct routing over GPIO Matrix to reduce latency

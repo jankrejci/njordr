@@ -159,7 +159,7 @@
 	(net 11 "Net-(U1-SCL)")
 	(net 12 "unconnected-(U1-DRDY_{slash}_INT-PadC2)")
 	(net 13 "Net-(U1-SDA)")
-	(footprint "njordr:DSBGA-6-1.5x1.5"
+	(footprint "vetroplach:DSBGA-6-1.5x1.5"
 		(layer "F.Cu")
 		(uuid "0cbcd807-dbf3-44cf-86e1-1b311a8d49d4")
 		(at 170.542716 81.305647 30)
@@ -484,7 +484,7 @@
 			)
 		)
 	)
-	(footprint "njordr:C-0603-HandSolder"
+	(footprint "vetroplach:C-0603-HandSolder"
 		(layer "F.Cu")
 		(uuid "2a42cd5d-b925-4735-a459-5c6731329df1")
 		(at 141.690283 78.751646 -30)
@@ -698,7 +698,7 @@
 			)
 		)
 	)
-	(footprint "njordr:C-0805-HandSolder"
+	(footprint "vetroplach:C-0805-HandSolder"
 		(layer "F.Cu")
 		(uuid "3e62bc94-e867-4c7f-83ff-6534ac488ea8")
 		(at 148.750001 107.574998)
@@ -911,7 +911,7 @@
 			)
 		)
 	)
-	(footprint "njordr:SM04B-SRSS-TB"
+	(footprint "vetroplach:SM04B-SRSS-TB"
 		(layer "F.Cu")
 		(uuid "474b8d91-e47e-43ee-bd23-41c9a03c0a66")
 		(at 155.35523 106.282955)
@@ -1163,7 +1163,7 @@
 			)
 		)
 	)
-	(footprint "njordr:QFN-8-HP203B"
+	(footprint "vetroplach:QFN-8-HP203B"
 		(layer "F.Cu")
 		(uuid "5f703560-2ec4-4874-ab80-ae50a1104ef0")
 		(at 140.190288 81.349726 -30)
@@ -1380,7 +1380,7 @@
 			)
 		)
 	)
-	(footprint "njordr:R-0603-HandSolder"
+	(footprint "vetroplach:R-0603-HandSolder"
 		(layer "F.Cu")
 		(uuid "79d69c79-b9f8-40de-9b09-1260446cafdf")
 		(at 139.056311 85.313824 -120)
@@ -1594,7 +1594,7 @@
 			)
 		)
 	)
-	(footprint "njordr:R-0603-HandSolder"
+	(footprint "vetroplach:R-0603-HandSolder"
 		(layer "F.Cu")
 		(uuid "85d3704b-f7ab-4a86-875d-a11dfb42e00c")
 		(at 171.218631 84.416149 -60)
@@ -1808,7 +1808,7 @@
 			)
 		)
 	)
-	(footprint "njordr:R-0603-HandSolder"
+	(footprint "vetroplach:R-0603-HandSolder"
 		(layer "F.Cu")
 		(uuid "8cac3d6a-5bbb-4de7-8f26-4e712ef533a5")
 		(at 172.941962 83.461262 -60)
@@ -2022,7 +2022,7 @@
 			)
 		)
 	)
-	(footprint "njordr:R-0603-HandSolder"
+	(footprint "vetroplach:R-0603-HandSolder"
 		(layer "F.Cu")
 		(uuid "8cf52c35-e772-418a-b9a6-47f78408ce98")
 		(at 137.42613 84.37264 -120)
@@ -2236,7 +2236,7 @@
 			)
 		)
 	)
-	(footprint "njordr:C-0603-HandSolder"
+	(footprint "vetroplach:C-0603-HandSolder"
 		(layer "F.Cu")
 		(uuid "c8e43957-6757-4008-98b4-1a364a927e4f")
 		(at 169.318163 79.184655 30)
@@ -2449,7 +2449,7 @@
 			)
 		)
 	)
-	(footprint "njordr:C-0603-HandSolder"
+	(footprint "vetroplach:C-0603-HandSolder"
 		(layer "F.Cu")
 		(uuid "ccd11643-6dcd-4d19-91ac-8dc29e8af708")
 		(at 148.749997 104.046941)
@@ -2663,7 +2663,7 @@
 			)
 		)
 	)
-	(footprint "njordr:C-0603-HandSolder"
+	(footprint "vetroplach:C-0603-HandSolder"
 		(layer "F.Cu")
 		(uuid "dd0165c9-4485-4540-844d-b5ca57fe8771")
 		(at 161.999998 104.046943 180)
@@ -2877,7 +2877,7 @@
 			)
 		)
 	)
-	(footprint "njordr:C-0805-HandSolder"
+	(footprint "vetroplach:C-0805-HandSolder"
 		(layer "F.Cu")
 		(uuid "e16411b1-6593-4802-98e6-5a6ceed1438d")
 		(at 162 107.575 180)

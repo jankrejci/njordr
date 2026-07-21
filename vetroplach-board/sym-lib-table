@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "vetroplach")(type "KiCad")(uri "/home/jkr/projects/vetroplach/components/vetroplach.kicad_sym")(options "")(descr ""))
+)
