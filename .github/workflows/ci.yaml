@@ -1,0 +1,58 @@
+name: ci
+
+# Formatting, clippy, and the check stage all run through the flake,
+# so the commands here are exactly what a developer runs locally:
+# nix build .#ci-format / .#ci-clippy / .#ci-check. The check stage
+# covers the firmware release build and the PCB DRC and ERC. Their
+# union is `nix flake check`.
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  format:
+    name: format
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: DeterminateSystems/nix-installer-action@v22
+      - uses: nix-community/cache-nix-action@v6
+        with:
+          primary-key: nix-${{ runner.os }}-format-${{ hashFiles('**/*.nix', 'flake.lock') }}
+          restore-prefixes-first-match: nix-${{ runner.os }}-format-
+          gc-max-store-size-linux: 5G
+      - run: nix build --no-link --print-build-logs .#ci-format
+
+  clippy:
+    name: clippy
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: DeterminateSystems/nix-installer-action@v22
+      - uses: nix-community/cache-nix-action@v6
+        with:
+          primary-key: nix-${{ runner.os }}-clippy-${{ hashFiles('**/*.nix', 'flake.lock', 'firmware/vetroplach/Cargo.lock') }}
+          restore-prefixes-first-match: nix-${{ runner.os }}-clippy-
+          gc-max-store-size-linux: 8G
+      - run: nix build --no-link --print-build-logs .#ci-clippy
+
+  check:
+    name: check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: DeterminateSystems/nix-installer-action@v22
+      - uses: nix-community/cache-nix-action@v6
+        with:
+          primary-key: nix-${{ runner.os }}-check-${{ hashFiles('**/*.nix', 'flake.lock', 'firmware/vetroplach/Cargo.lock') }}
+          restore-prefixes-first-match: nix-${{ runner.os }}-check-
+          gc-max-store-size-linux: 8G
+      - run: nix build --no-link --print-build-logs .#ci-check
