@@ -1,0 +1,17 @@
+[general]
+extra-path=.gitlint-rules/
+regex-style-search=true
+ignore-fixup-commits=true
+ignore-squash-commits=true
+
+# Body is optional
+ignore=B5,B6
+
+[title-match-regex]
+regex=^\.?[a-z][a-z0-9-]+(: [a-z][a-z0-9-]+)*: [A-Z]
+
+[title-must-not-contain-word]
+words=WIP,TMP
+
+[body-max-line-length]
+line-length=72

@@ -18,6 +18,20 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  commits:
+    name: commit messages
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: DeterminateSystems/nix-installer-action@v22
+      - name: gitlint
+        run: |
+          nix shell --inputs-from . nixpkgs#gitlint --command \
+            gitlint --commits "${{ github.event.pull_request.base.sha }}..${{ github.event.pull_request.head.sha }}"
+
   format:
     name: format
     runs-on: ubuntu-latest
