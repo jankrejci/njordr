@@ -19780,7 +19780,7 @@
 				)
 			)
 		)
-		(property "Sim.Library" "/home/jkr/projects/vetroplach/components/opamp-250mhz.lib"
+		(property "Sim.Library" "${KIPRJMOD}/../components/spice/opamp-250mhz.lib"
 			(at 0 0 300)
 			(unlocked yes)
 			(layer "F.Fab")
