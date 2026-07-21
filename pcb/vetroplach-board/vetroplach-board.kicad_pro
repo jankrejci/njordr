@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.0,
+          "height": 1.4,
+          "width": 1.2
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -51,31 +51,17 @@
           "min_clearance": 0.0
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [
         [
-          "silk_edge_clearance|154825289|88290000|09de575f-158b-4b5d-9f24-8b2d3fafa780|661f230e-88e9-4b98-a002-839c3767e7ea",
-          "acceptable"
-        ],
-        [
-          "silk_edge_clearance|155102262|88275314|09de575f-158b-4b5d-9f24-8b2d3fafa780|e5cdcab3-3d71-4cb7-b998-a3b303a0d254",
-          "acceptable"
-        ],
-        [
-          "silk_edge_clearance|155379221|90040000|09de575f-158b-4b5d-9f24-8b2d3fafa780|ba5aaae3-a851-4e7d-b432-c5f9d80bd2db",
-          "acceptable"
-        ],
-        [
-          "silk_edge_clearance|155379221|91789999|09de575f-158b-4b5d-9f24-8b2d3fafa780|b90bd095-6d54-4867-8cfd-58683f6c2e77",
-          "acceptable"
-        ],
-        [
-          "starved_thermal|170359703|81988660|e60bb9bb-adf9-41d5-ade5-b5d7c5d75c92|a0b446ab-f5ca-4a93-b2c9-5183e0af311b|F.Cu",
-          "good enoug"
-        ],
-        [
-          "text_on_edge_cuts|155379221|113837972|18058b89-100d-4f0d-8972-c7309b80700c|00000000-0000-0000-0000-000000000000",
-          "not found"
+          "starved_thermal|110683402|107268764|e11b80ce-d5e8-46ac-a756-020d1f0e989c|af92ae62-ed97-4d90-80fc-00b9c71f101d|F.Cu",
+          "goo enough"
         ]
       ],
       "meta": {
@@ -95,9 +81,9 @@
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
-        "footprint_filters_mismatch": "ignore",
+        "footprint_filters_mismatch": "warning",
         "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "ignore",
+        "footprint_type_mismatch": "error",
         "hole_clearance": "error",
         "hole_to_hole": "warning",
         "holes_co_located": "warning",
@@ -107,20 +93,20 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
-        "missing_courtyard": "ignore",
+        "missing_courtyard": "error",
         "missing_footprint": "warning",
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
-        "npth_inside_courtyard": "ignore",
+        "npth_inside_courtyard": "error",
         "padstack": "warning",
-        "pth_inside_courtyard": "ignore",
+        "pth_inside_courtyard": "error",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
+        "silk_over_copper": "ignore",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
@@ -142,9 +128,9 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.2,
+        "min_clearance": 0.1,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.2,
+        "min_copper_edge_clearance": 0.3,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -155,7 +141,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
+        "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -205,7 +191,11 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.2,
+        0.4
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -232,7 +222,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -476,14 +471,14 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "sensor-board.kicad_pro",
+    "filename": "vetroplach-board.kicad_pro",
     "version": 3
   },
   "net_settings": {
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -515,7 +510,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../../sensor-board.step",
+      "step": "vetroplach-board.step",
       "svg": "",
       "vrml": ""
     },
@@ -594,8 +589,68 @@
         },
         {
           "group_by": false,
-          "label": "LCSC Part",
-          "name": "LCSC Part",
+          "label": "Label",
+          "name": "Label",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Library",
+          "name": "Sim.Library",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Name",
+          "name": "Sim.Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Params",
+          "name": "Sim.Params",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Text",
+          "name": "Text",
           "show": false
         },
         {
@@ -615,14 +670,44 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Label5",
+          "name": "Label5",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Label6",
+          "name": "Label6",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Label2",
+          "name": "Label2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Label3",
+          "name": "Label3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Label4",
+          "name": "Label4",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": true,
+      "include_excluded_from_bom": false,
       "name": "",
-      "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_asc": false,
+      "sort_field": "Footprint"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -652,6 +737,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": "signal-priming.wbk"
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -666,8 +759,32 @@
   },
   "sheets": [
     [
-      "393af09b-88f2-4329-8c12-7a9b2268fab9",
+      "837a3018-1957-4824-b018-c0ef83e9cb67",
       "Root"
+    ],
+    [
+      "bf91780b-a3e5-4735-8b79-99e144696542",
+      "sonic-ch1"
+    ],
+    [
+      "7f7872d8-858e-4ae4-8fd8-feb8ef4eec93",
+      "sonic-ch2"
+    ],
+    [
+      "07c57c4e-5514-42d0-9375-a10ad912c2ec",
+      "sonic-ch3"
+    ],
+    [
+      "085e2257-4ead-4630-86ba-fd69b8cd726d",
+      "interface"
+    ],
+    [
+      "55a1aa29-8230-4b58-97dd-4caaf3e17561",
+      "signal-priming"
+    ],
+    [
+      "27a9dd2e-a3b6-499f-b81b-edb2a809ca38",
+      "controller"
     ]
   ],
   "text_variables": {}

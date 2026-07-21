@@ -3,9 +3,9 @@ name: sensor-board-gerbers
 on:
   pull_request:
     paths:
-    - 'sensor-board/*.kicad_sch'
-    - 'sensor-board/*.kicad_pcb'
-    - 'sensor-board/*.kibot.yaml'
+    - 'pcb/sensor-board/*.kicad_sch'
+    - 'pcb/sensor-board/*.kicad_pcb'
+    - 'pcb/sensor-board/*.kibot.yaml'
     - '.github/workflows/sensor-board.yaml'
   workflow_dispatch:
     inputs:
@@ -23,8 +23,8 @@ jobs:
       with:
         config: jlcpcb.kibot.yaml
         dir: output
-        schema: 'sensor-board/sensor-board.kicad_sch'
-        board: 'sensor-board/sensor-board.kicad_pcb'
+        schema: 'pcb/sensor-board/sensor-board.kicad_sch'
+        board: 'pcb/sensor-board/sensor-board.kicad_pcb'
     - name: 'Cleanup build folder'
       run: sudo rm -rf ./output/tmp
     - name: 'Upload results'

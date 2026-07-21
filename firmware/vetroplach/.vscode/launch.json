@@ -14,7 +14,7 @@
       "coreConfigs": [
         {
           "coreIndex": 0,
-          "programBinary": "${workspaceFolder}/target/xtensa-esp32s3-none-elf/release/vetroplach-firmware",
+          "programBinary": "${workspaceFolder}/target/xtensa-esp32s3-none-elf/release/vetroplach",
           "rttEnabled": true,
           "options": {
             "env": {
@@ -40,7 +40,7 @@
       "coreConfigs": [
         {
           "coreIndex": 0,
-          "programBinary": "${workspaceFolder}/target/xtensa-esp32s3-none-elf/debug/vetroplach-firmware",
+          "programBinary": "${workspaceFolder}/target/xtensa-esp32s3-none-elf/debug/vetroplach",
           "rttEnabled": true,
           "options": {
             "env": {
