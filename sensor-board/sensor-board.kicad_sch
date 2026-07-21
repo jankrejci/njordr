@@ -273,7 +273,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "njordr:HDC2010YPAR"
+		(symbol "vetroplach:HDC2010YPAR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -295,7 +295,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "njordr:DSBGA-6-1.5x1.5"
+			(property "Footprint" "vetroplach:DSBGA-6-1.5x1.5"
 				(at 31.75 -94.92 0)
 				(effects
 					(font
@@ -466,7 +466,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "njordr:HP203B"
+		(symbol "vetroplach:HP203B"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -486,7 +486,7 @@
 					)
 				)
 			)
-			(property "Footprint" "njordr:QFN-8-HP203B"
+			(property "Footprint" "vetroplach:QFN-8-HP203B"
 				(at 0 -11.43 0)
 				(effects
 					(font
@@ -683,7 +683,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "njordr:SM04B-SRSS-TB"
+		(symbol "vetroplach:SM04B-SRSS-TB"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -708,7 +708,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "njordr:SM04B-SRSS-TB"
+			(property "Footprint" "vetroplach:SM04B-SRSS-TB"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1836,7 +1836,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "njordr:C-0603-HandSolder"
+		(property "Footprint" "vetroplach:C-0603-HandSolder"
 			(at 49.2252 67.31 0)
 			(effects
 				(font
@@ -2022,7 +2022,7 @@
 		)
 	)
 	(symbol
-		(lib_id "njordr:HDC2010YPAR")
+		(lib_id "vetroplach:HDC2010YPAR")
 		(at 68.58 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2046,7 +2046,7 @@
 				)
 			)
 		)
-		(property "Footprint" "njordr:DSBGA-6-1.5x1.5"
+		(property "Footprint" "vetroplach:DSBGA-6-1.5x1.5"
 			(at 100.33 153.34 0)
 			(effects
 				(font
@@ -2149,7 +2149,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "njordr:C-0603-HandSolder"
+		(property "Footprint" "vetroplach:C-0603-HandSolder"
 			(at 82.2452 135.89 0)
 			(effects
 				(font
@@ -2426,7 +2426,7 @@
 				)
 			)
 		)
-		(property "Footprint" "njordr:R-0603-HandSolder"
+		(property "Footprint" "vetroplach:R-0603-HandSolder"
 			(at 237.49 67.818 90)
 			(effects
 				(font
@@ -2572,7 +2572,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "njordr:C-0805-HandSolder"
+		(property "Footprint" "vetroplach:C-0805-HandSolder"
 			(at 93.6752 135.89 0)
 			(effects
 				(font
@@ -2783,7 +2783,7 @@
 				)
 			)
 		)
-		(property "Footprint" "njordr:R-0603-HandSolder"
+		(property "Footprint" "vetroplach:R-0603-HandSolder"
 			(at 111.76 62.738 90)
 			(effects
 				(font
@@ -3130,7 +3130,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "njordr:C-0603-HandSolder"
+		(property "Footprint" "vetroplach:C-0603-HandSolder"
 			(at 174.9552 69.85 0)
 			(effects
 				(font
@@ -3340,7 +3340,7 @@
 				)
 			)
 		)
-		(property "Footprint" "njordr:R-0603-HandSolder"
+		(property "Footprint" "vetroplach:R-0603-HandSolder"
 			(at 111.76 65.278 90)
 			(effects
 				(font
@@ -3754,7 +3754,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "njordr:C-0805-HandSolder"
+		(property "Footprint" "vetroplach:C-0805-HandSolder"
 			(at 116.5352 135.89 0)
 			(effects
 				(font
@@ -4007,7 +4007,7 @@
 		)
 	)
 	(symbol
-		(lib_id "njordr:HP203B")
+		(lib_id "vetroplach:HP203B")
 		(at 212.09 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4034,7 +4034,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "njordr:QFN-8-HP203B"
+		(property "Footprint" "vetroplach:QFN-8-HP203B"
 			(at 212.09 77.47 0)
 			(effects
 				(font
@@ -4113,7 +4113,7 @@
 		)
 	)
 	(symbol
-		(lib_id "njordr:SM04B-SRSS-TB")
+		(lib_id "vetroplach:SM04B-SRSS-TB")
 		(at 58.42 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4140,7 +4140,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "njordr:SM04B-SRSS-TB"
+		(property "Footprint" "vetroplach:SM04B-SRSS-TB"
 			(at 58.42 128.27 0)
 			(effects
 				(font
@@ -4228,7 +4228,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "njordr:C-0603-HandSolder"
+		(property "Footprint" "vetroplach:C-0603-HandSolder"
 			(at 105.1052 135.89 0)
 			(effects
 				(font
@@ -4305,7 +4305,7 @@
 				)
 			)
 		)
-		(property "Footprint" "njordr:R-0603-HandSolder"
+		(property "Footprint" "vetroplach:R-0603-HandSolder"
 			(at 237.49 65.278 90)
 			(effects
 				(font

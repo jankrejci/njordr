@@ -471,7 +471,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "njordr-board.kicad_pro",
+    "filename": "vetroplach-board.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -510,7 +510,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../../njordr-board.step",
+      "step": "../../../vetroplach-board.step",
       "svg": "",
       "vrml": ""
     },

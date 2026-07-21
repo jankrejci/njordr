@@ -1,6 +1,6 @@
 # Piezo Driver
 
-The Njordr driver uses a half-bridge configuration with LC resonance to boost 20V up to ~100Vpp at the transducer. Same transducer works for both transmit and receive.
+The Vetroplach driver uses a half-bridge configuration with LC resonance to boost 20V up to ~100Vpp at the transducer. Same transducer works for both transmit and receive.
 
 ## Circuit Design
 

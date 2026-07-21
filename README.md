@@ -1,4 +1,4 @@
-# njordr-firmware
+# vetroplach-firmware
 
 Firmware for an ultrasonic anemometer.
 

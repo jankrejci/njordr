@@ -5,7 +5,7 @@
 	(uuid "837a3018-1957-4824-b018-c0ef83e9cb67")
 	(paper "A4")
 	(title_block
-		(title "NJORDR-BOARD")
+		(title "VETROPLACH-BOARD")
 		(date "2025-08-24")
 		(rev "0.1")
 	)
@@ -1077,7 +1077,7 @@
 			(uuid "7e30881a-9caa-4bd9-8a8f-900badb61c73")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67"
 					(reference "#PWR051")
 					(unit 1)
@@ -1144,7 +1144,7 @@
 			(uuid "955c84d9-b3e7-4529-9d29-9d239df4aa26")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67"
 					(reference "#PWR046")
 					(unit 1)
@@ -1180,7 +1180,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "njordr:PinHeader-1x06-P2.54mm-Vertical"
+		(property "Footprint" "vetroplach:PinHeader-1x06-P2.54mm-Vertical"
 			(at 60.96 91.44 0)
 			(effects
 				(font
@@ -1235,7 +1235,7 @@
 			(uuid "dc9a7732-24b4-4676-8578-47f9c3fbbe1c")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67"
 					(reference "J2")
 					(unit 1)
@@ -1302,7 +1302,7 @@
 			(uuid "e8bfe436-8979-43bf-a2ba-2113b070691b")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67"
 					(reference "#PWR048")
 					(unit 1)
@@ -1370,7 +1370,7 @@
 			(uuid "1d821226-1ada-48f6-9561-7d375a1040c9")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67"
 					(reference "#PWR049")
 					(unit 1)
@@ -1406,7 +1406,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "njordr:PinHeader-1x06-P2.54mm-Vertical"
+		(property "Footprint" "vetroplach:PinHeader-1x06-P2.54mm-Vertical"
 			(at 60.96 116.84 0)
 			(effects
 				(font
@@ -1461,7 +1461,7 @@
 			(uuid "a77e0273-d68f-4d57-9978-d0abfb990454")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67"
 					(reference "J3")
 					(unit 1)
@@ -1497,7 +1497,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "njordr:PinHeader-1x06-P2.54mm-Vertical"
+		(property "Footprint" "vetroplach:PinHeader-1x06-P2.54mm-Vertical"
 			(at 60.96 66.04 0)
 			(effects
 				(font
@@ -1664,7 +1664,7 @@
 			(uuid "922f569e-8632-43eb-931e-ccca2850ba8a")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67"
 					(reference "#PWR050")
 					(unit 1)
@@ -1732,7 +1732,7 @@
 			(uuid "e36f0bcb-ce52-473d-8824-8037a28f804a")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67"
 					(reference "#PWR047")
 					(unit 1)
@@ -1825,7 +1825,7 @@
 			)
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67"
 					(page "4")
 				)
@@ -2077,7 +2077,7 @@
 			)
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67"
 					(page "5")
 				)
@@ -2119,7 +2119,7 @@
 			)
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67"
 					(page "7")
 				)
@@ -2251,7 +2251,7 @@
 			)
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67"
 					(page "6")
 				)
@@ -2343,7 +2343,7 @@
 			)
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67"
 					(page "3")
 				)
@@ -2435,7 +2435,7 @@
 			)
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67"
 					(page "2")
 				)

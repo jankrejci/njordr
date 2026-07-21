@@ -1,18 +1,18 @@
-name: njordr-board-gerbers
+name: vetroplach-board-gerbers
 
 on:
   pull_request:
     paths:
-    - 'njordr-board/*.kicad_sch'
-    - 'njordr-board/*.kicad_pcb'
-    - 'njordr-board/*.kibot.yaml'
-    - '.github/workflows/njordr-board.yaml'
+    - 'vetroplach-board/*.kicad_sch'
+    - 'vetroplach-board/*.kicad_pcb'
+    - 'vetroplach-board/*.kibot.yaml'
+    - '.github/workflows/vetroplach-board.yaml'
   workflow_dispatch:
     inputs:
       name:
         description: 'Workflow run name'
         required: false
-        default: 'njordr-board gerbers'
+        default: 'vetroplach-board gerbers'
   
 jobs:
   jlcpcb:
@@ -23,12 +23,12 @@ jobs:
       with:
         config: jlcpcb.kibot.yaml
         dir: output
-        schema: 'njordr-board/njordr-board.kicad_sch'
-        board: 'njordr-board/njordr-board.kicad_pcb'
+        schema: 'vetroplach-board/vetroplach-board.kicad_sch'
+        board: 'vetroplach-board/vetroplach-board.kicad_pcb'
     - name: 'Cleanup build folder'
       run: sudo rm -rf ./output/tmp
     - name: 'Upload results'
       uses: actions/upload-artifact@v4
       with:
-        name: njordr-board-jlcpcb
+        name: vetroplach-board-jlcpcb
         path: output

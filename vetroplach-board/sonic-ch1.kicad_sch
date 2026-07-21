@@ -3719,7 +3719,7 @@
 			(uuid "f904132a-241c-4132-b55c-ec28d8755781")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "#PWR0132")
 					(unit 1)
@@ -3798,7 +3798,7 @@
 			(uuid "39b47f54-dedb-4562-a4c9-044a8104977e")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "C111")
 					(unit 1)
@@ -3865,7 +3865,7 @@
 			(uuid "5f4f8ff6-bea3-41d4-9ab2-37dbdfc46ab8")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "#PWR0116")
 					(unit 1)
@@ -3933,7 +3933,7 @@
 			(uuid "428f90f9-84ca-41d4-aa5f-c4fa1aba7f9d")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "#PWR0125")
 					(unit 1)
@@ -4012,7 +4012,7 @@
 			(uuid "b1aa1ef8-809a-4c89-bb60-db0a7c856320")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "R103")
 					(unit 1)
@@ -4078,7 +4078,7 @@
 			(uuid "8c8ad030-7987-419a-b35d-8b1a1191997e")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "T103")
 					(unit 1)
@@ -4146,7 +4146,7 @@
 			(uuid "4d2acea5-5b50-4454-8da6-f47aac1fc957")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "#PWR0133")
 					(unit 1)
@@ -4212,7 +4212,7 @@
 			(uuid "7ab85184-8857-41c7-a301-14b0605a13e7")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "T112")
 					(unit 1)
@@ -4288,7 +4288,7 @@
 			(uuid "0039fae3-62de-43af-b48d-a8515a915e63")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "R110")
 					(unit 1)
@@ -4354,7 +4354,7 @@
 			(uuid "be3f244b-2089-4ff2-b793-ced1619f38fc")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "T107")
 					(unit 1)
@@ -4422,7 +4422,7 @@
 			(uuid "835fd5ec-a09a-4f75-b541-773c8c6ce11a")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "L101")
 					(unit 1)
@@ -4490,7 +4490,7 @@
 			(uuid "30cbbcf9-4930-4e14-980a-5db5a63518c0")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "#PWR0122")
 					(unit 1)
@@ -4567,7 +4567,7 @@
 			(uuid "87860e36-1ccd-409e-ab6c-96896381e105")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "R102")
 					(unit 1)
@@ -4633,7 +4633,7 @@
 			(uuid "e36ea800-1e6c-4a03-bb95-6133cdda2954")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "#PWR0123")
 					(unit 1)
@@ -4709,7 +4709,7 @@
 			(uuid "00254527-fd97-4372-9097-104e824f2bf5")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "R104")
 					(unit 1)
@@ -4776,7 +4776,7 @@
 			(uuid "40c8b608-d17d-4917-8c93-4e6bc3454533")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "#PWR0112")
 					(unit 1)
@@ -4861,7 +4861,7 @@
 			(uuid "d7735985-7b69-4d6f-aec1-7f0f601f59ee")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "Q105")
 					(unit 1)
@@ -4938,7 +4938,7 @@
 			(uuid "f6e0d1bd-2b69-43a2-862a-715df7870a0e")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "R106")
 					(unit 1)
@@ -5022,7 +5022,7 @@
 			(uuid "ca0d17a3-8718-4589-81b0-e51373f208fb")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "Q101")
 					(unit 1)
@@ -5090,7 +5090,7 @@
 			(uuid "ccafa93e-30dc-47a5-8bd4-d04c3345814f")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "#PWR0118")
 					(unit 1)
@@ -5158,7 +5158,7 @@
 			(uuid "1537b9d8-7569-4dde-9a98-828d3601bfb0")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "#PWR0135")
 					(unit 1)
@@ -5225,7 +5225,7 @@
 			(uuid "0ffc70be-9fff-493c-8dd0-85dafc12635b")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "#PWR0111")
 					(unit 1)
@@ -5304,7 +5304,7 @@
 			(uuid "2762be60-e171-416a-a2db-19f17b165f87")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "C108")
 					(unit 1)
@@ -5371,7 +5371,7 @@
 			(uuid "656f9a50-14aa-4a08-b872-251a1f0cc1b5")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "#PWR0117")
 					(unit 1)
@@ -5448,7 +5448,7 @@
 			(uuid "3499424c-e201-4570-9c41-fe2416cfcff4")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "C110")
 					(unit 1)
@@ -5527,7 +5527,7 @@
 			(uuid "5f5498f4-a1ea-44a7-af76-185b787ae624")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "D103")
 					(unit 1)
@@ -5594,7 +5594,7 @@
 			(uuid "078ccecc-4513-4639-864f-5f00fd227cde")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "#PWR0121")
 					(unit 1)
@@ -5660,7 +5660,7 @@
 			(uuid "8f6d85c0-1df0-4f2a-9995-818ec16c28d4")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "T111")
 					(unit 1)
@@ -5736,7 +5736,7 @@
 			(uuid "2be5a888-0e83-4b53-8838-336f64d238f1")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "R111")
 					(unit 1)
@@ -5802,7 +5802,7 @@
 			(uuid "5edbe945-5ee9-49dd-a06e-c57f79ffe383")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "#PWR0126")
 					(unit 1)
@@ -5869,7 +5869,7 @@
 			(uuid "035a4840-c763-4f45-849b-07469cafe53a")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "#PWR0129")
 					(unit 1)
@@ -5935,7 +5935,7 @@
 			(uuid "3a62410d-8781-4236-965c-036fa663d7b0")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "T104")
 					(unit 1)
@@ -6011,7 +6011,7 @@
 			(uuid "412f51f8-e7b0-4f0b-90f3-26dbcced44a9")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "R107")
 					(unit 1)
@@ -6079,7 +6079,7 @@
 			(uuid "7f434880-f205-4590-a20c-023a6b11dd80")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "#PWR0115")
 					(unit 1)
@@ -6145,7 +6145,7 @@
 			(uuid "90ee01e9-68d2-40db-a6a1-53a65fb40b43")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "#PWR0131")
 					(unit 1)
@@ -6212,7 +6212,7 @@
 			(uuid "d6a17a67-f212-488b-9bdd-fa8c652234dc")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "#PWR0127")
 					(unit 1)
@@ -6289,7 +6289,7 @@
 			(uuid "f1ee2721-5879-4229-80db-53c9c114b8d1")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "R101")
 					(unit 1)
@@ -6374,7 +6374,7 @@
 			(uuid "dc2e3f21-7fc6-4c39-93a6-d12c4be6c4ce")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "Q102")
 					(unit 1)
@@ -6450,7 +6450,7 @@
 			(uuid "c41df5fd-2757-489d-a74d-1e91d4c4c656")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "R105")
 					(unit 1)
@@ -6529,7 +6529,7 @@
 			(uuid "5911e44a-b1aa-4a41-b11b-33296debceeb")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "C104")
 					(unit 1)
@@ -6626,7 +6626,7 @@
 			(uuid "f70bdc90-639b-4676-9a39-5eac6026eca6")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "D101")
 					(unit 1)
@@ -6705,7 +6705,7 @@
 			(uuid "fc147814-9775-46f0-9525-8b711985bf56")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "C105")
 					(unit 1)
@@ -6773,7 +6773,7 @@
 			(uuid "47ff7cca-1430-4e23-bc3a-49ade7600f8a")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "#PWR0128")
 					(unit 1)
@@ -6870,7 +6870,7 @@
 			(uuid "2b149108-374b-4f36-8952-c7abf4e89641")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "D102")
 					(unit 1)
@@ -6955,7 +6955,7 @@
 			(uuid "6efcb462-b2b1-4dc6-b4b0-4d4405d2cceb")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "Q104")
 					(unit 1)
@@ -7021,7 +7021,7 @@
 			(uuid "c50622fa-d82f-4c70-baa5-61a10bc7dddd")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "T108")
 					(unit 1)
@@ -7089,7 +7089,7 @@
 			(uuid "24623352-3ccf-4091-b3b0-441cc5c3bae7")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "#PWR0136")
 					(unit 1)
@@ -7155,7 +7155,7 @@
 			(uuid "951c4b62-078a-4c81-9aac-3b797c21de7f")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "T113")
 					(unit 1)
@@ -7221,7 +7221,7 @@
 			(uuid "beb0456f-b1c9-4578-8c46-bd173ba6ed19")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "#PWR0120")
 					(unit 1)
@@ -7289,7 +7289,7 @@
 			(uuid "d1b2fc65-cc93-44ad-b702-75e4242ff4bf")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "ST101")
 					(unit 1)
@@ -7355,7 +7355,7 @@
 			(uuid "8ffdf331-b106-462c-8773-7e0ded0a4a51")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "#PWR0130")
 					(unit 1)
@@ -7434,7 +7434,7 @@
 			(uuid "48b20441-188a-4779-b402-ecdd4c138fc6")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "R112")
 					(unit 1)
@@ -7502,7 +7502,7 @@
 			(uuid "36f9f2c9-4a22-4207-bcd0-2d0295a32699")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "#PWR0119")
 					(unit 1)
@@ -7581,7 +7581,7 @@
 			(uuid "f410a1fb-18d2-4073-80ee-d110466560ec")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "R108")
 					(unit 1)
@@ -7660,7 +7660,7 @@
 			(uuid "07f9daad-d7cf-4178-970f-2194acd1b09b")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "C107")
 					(unit 1)
@@ -7726,7 +7726,7 @@
 			(uuid "10fa039c-5cba-4282-bf04-c0cd4e6bdeb1")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "T109")
 					(unit 1)
@@ -7815,7 +7815,7 @@
 			(uuid "2b7f9d82-8653-4d1f-85a0-9576945b7f2a")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "U101")
 					(unit 1)
@@ -7905,7 +7905,7 @@
 			(uuid "2b7f9d82-8653-4d1f-85a0-9576945b7f2b")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "U101")
 					(unit 2)
@@ -7971,7 +7971,7 @@
 			(uuid "14fa8fa0-7cfc-4962-8063-b0bb1b7ab7c7")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "#PWR0134")
 					(unit 1)
@@ -8037,7 +8037,7 @@
 			(uuid "59e05f8a-4ea4-41f6-8797-cdaec48d9ad8")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "T105")
 					(unit 1)
@@ -8116,7 +8116,7 @@
 			(uuid "7df65e45-72e5-4e49-8bd1-c34b480b3207")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "R109")
 					(unit 1)
@@ -8201,7 +8201,7 @@
 			(uuid "a0d8200d-0f47-4999-8cf2-81f1ceea92db")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "Q103")
 					(unit 1)
@@ -8268,7 +8268,7 @@
 			(uuid "3c3584ce-f44f-4b4c-94a1-45672fc45d7b")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "#PWR0113")
 					(unit 1)
@@ -8347,7 +8347,7 @@
 			(uuid "253be93a-0cd6-4b9d-b163-debc7e8e8ec1")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "C106")
 					(unit 1)
@@ -8414,7 +8414,7 @@
 			(uuid "f9c88745-cd80-4e2f-aedf-e7abf3fe7add")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "#PWR0114")
 					(unit 1)
@@ -8480,7 +8480,7 @@
 			(uuid "535a219e-f86e-4e8e-8870-94457016ae76")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "T106")
 					(unit 1)
@@ -8547,7 +8547,7 @@
 			(uuid "5c3f2d0b-7aa2-4d76-9bfb-e302b03d846c")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "#PWR0124")
 					(unit 1)
@@ -8626,7 +8626,7 @@
 			(uuid "88efb00f-a130-401b-ac92-9678d0841477")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "C109")
 					(unit 1)
@@ -8692,7 +8692,7 @@
 			(uuid "c9665e5a-b14e-4be4-876e-f00baa15db28")
 		)
 		(instances
-			(project "njordr-board"
+			(project "vetroplach-board"
 				(path "/837a3018-1957-4824-b018-c0ef83e9cb67/bf91780b-a3e5-4735-8b79-99e144696542"
 					(reference "T110")
 					(unit 1)

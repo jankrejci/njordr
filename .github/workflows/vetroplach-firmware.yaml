@@ -1,10 +1,10 @@
-name: njordr-firmware-rust
+name: vetroplach-firmware-rust
 
 on:
   pull_request:
      paths:
-      - "njordr-firmware/**"
-      - '.github/workflows/njordr-firmware.yaml'
+      - "vetroplach-firmware/**"
+      - '.github/workflows/vetroplach-firmware.yaml'
   workflow_dispatch:
 
 env:
@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: njordr-firmware
+        working-directory: vetroplach-firmware
     strategy:
       fail-fast: true
       matrix:
@@ -39,7 +39,7 @@ jobs:
           # This needs to be compatible with flake.nix
           version: "1.88.0"
           ldproxy: false
-          workdir: njordr-firmware
+          workdir: vetroplach-firmware
       - name: Enable caching
         uses: Swatinem/rust-cache@v2
       - name: Run command
