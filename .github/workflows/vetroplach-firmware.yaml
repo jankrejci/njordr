@@ -3,7 +3,7 @@ name: vetroplach-firmware-rust
 on:
   pull_request:
      paths:
-      - "vetroplach-firmware/**"
+      - "firmware/vetroplach/**"
       - '.github/workflows/vetroplach-firmware.yaml'
   workflow_dispatch:
 
@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: vetroplach-firmware
+        working-directory: firmware/vetroplach
     strategy:
       fail-fast: true
       matrix:
@@ -39,7 +39,7 @@ jobs:
           # This needs to be compatible with flake.nix
           version: "1.88.0"
           ldproxy: false
-          workdir: vetroplach-firmware
+          workdir: firmware/vetroplach
       - name: Enable caching
         uses: Swatinem/rust-cache@v2
       - name: Run command

@@ -13,6 +13,5 @@
   "launch": {
     "configurations": [],
     "compounds": []
-  },
-  "vetroplach.binaryName": "vetroplach-firmware"
+  }
 }
