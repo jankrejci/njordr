@@ -1,0 +1,49 @@
+name: fab
+
+# Gerber, drill, pick-and-place, and BoM fabrication outputs for JLCPCB,
+# generated through the flake's kibot package. kibot runs DRC and ERC as a
+# preflight per jlcpcb.kibot.yaml before producing the fab artifacts. The
+# independent DRC/ERC gates in the ci workflow's check stage cover
+# correctness regardless of fabrication.
+
+on:
+  pull_request:
+    paths:
+      - 'pcb/**'
+      - 'jlcpcb.kibot.yaml'
+      - 'kibot.nix'
+      - 'kiauto.nix'
+      - 'flake.nix'
+      - 'flake.lock'
+      - '.github/workflows/fab.yaml'
+  workflow_dispatch:
+
+jobs:
+  fab:
+    name: ${{ matrix.board }} fab
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        board:
+          - sensor-board
+          - vetroplach-board
+    steps:
+      - uses: actions/checkout@v4
+      - uses: DeterminateSystems/nix-installer-action@v22
+      - uses: nix-community/cache-nix-action@v6
+        with:
+          primary-key: nix-${{ runner.os }}-fab-${{ hashFiles('kibot.nix', 'kiauto.nix', 'flake.lock') }}
+          restore-prefixes-first-match: nix-${{ runner.os }}-fab-
+          gc-max-store-size-linux: 5G
+      - name: Generate fab outputs
+        run: |
+          nix run .#kibot -- -c jlcpcb.kibot.yaml \
+            -b pcb/${{ matrix.board }}/${{ matrix.board }}.kicad_pcb \
+            -e pcb/${{ matrix.board }}/${{ matrix.board }}.kicad_sch \
+            -d fab/${{ matrix.board }}/
+          rm -rf fab/${{ matrix.board }}/tmp
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.board }}-jlcpcb
+          path: fab/${{ matrix.board }}/
