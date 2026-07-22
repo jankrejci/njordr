@@ -1,6 +1,6 @@
-# Gerber and drill files for JLCPCB, without stencil
-# URL: https://jlcpcb.com/
-# Based on setting used by Gerber Zipper (https://github.com/g200kg/kicad-gerberzipper)
+# Gerber and drill files for JLCPCB, without a stencil. The fab house
+# lives at https://jlcpcb.com/. The settings are based on those of
+# Gerber Zipper at https://github.com/g200kg/kicad-gerberzipper.
 kibot:
   version: 1
 
@@ -16,9 +16,11 @@ preflight:
     # TODO the first-iteration board still has many benign DRC warnings.
     # Resolve them and re-enable warnings_as_errors:
     # - silk_overlap: overlapping silkscreen reference designators
-    # - footprint_filters_mismatch: custom library footprints vs default symbol filters
-    #   (rename the library footprints or add matching footprint filters to symbols)
-    # - missing_footprint: simulation-only parts (sources, net ties) not excluded from board
+    # - footprint_filters_mismatch: custom library footprints do not
+    #   match the default symbol filters; rename the library footprints
+    #   or add matching footprint filters to the symbols
+    # - missing_footprint: simulation-only parts such as sources and net
+    #   ties are not excluded from the board
     warnings_as_errors: false
   check_zone_fills: true
 
@@ -32,7 +34,7 @@ filters:
 
 variants:
   - name: rotated
-    comment: 'Just a place holder for the rotation filter'
+    comment: 'Placeholder variant that applies the rotation filter'
     type: kibom
     variant: rotated
     pre_transform: _rot_footprint
@@ -140,14 +142,14 @@ outputs:
         - from_output: JLCPCB_drill
           dest: /
 
-  - name: DOCS_schematics 
+  - name: DOCS_schematics
     comment: Schematics documentation
     type: pdf_sch_print
     name: '%f-sch'
     options:
       output: '%f-sch.%x'
 
-  - name: DOCS_pcb 
+  - name: DOCS_pcb
     comment: PCB documentation
     type: pcb_print
     name: '%f-pcb'
