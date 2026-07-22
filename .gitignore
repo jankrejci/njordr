@@ -9,16 +9,13 @@ result-*
 fab/
 
 # Cargo compiled files and executables
-debug/
 target/
 # Rustfmt backup files
 **/*.rs.bk
-# ESP toolchain
-.rustup/
 # Cargo cache files
 **/.cargo/*
 !**/.cargo/config.toml
- 
+
 # For PCBs designed using KiCad: https://www.kicad.org/
 # Format documentation: https://kicad.org/help/file-formats/
 
@@ -26,22 +23,18 @@ target/
 *.000
 *.bak
 *.bck
-*.kicad_pcb-bak
-*.kicad_sch-bak
 *-backups
 *-cache*
-*-bak
 *-bak*
 *~
 ~*
 _autosave-*
-\#auto_saved_files\#
+\#auto_saved_files#
 *.tmp
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
 ~*.lck
-\#auto_saved_files#
 
 # Netlist files (exported from Eeschema)
 *.net
