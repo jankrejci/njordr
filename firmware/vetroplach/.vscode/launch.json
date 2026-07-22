@@ -26,7 +26,7 @@
       "name": "ESP32-S3 Build & Flash & Debug (debug) ",
       "type": "probe-rs-debug",
       "request": "launch",
-      "chip": "ESP32-S3",
+      "chip": "esp32s3",
       "flashingConfig": {
         "flashingEnabled": true,
         "resetAfterFlashing": true,
