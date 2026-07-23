@@ -42,6 +42,10 @@ let
 
   # DRC gate. `--schematic-parity` compares the PCB footprints against the
   # schematic symbols so library or symbol drift cannot slip through.
+  # `--refill-zones` recomputes the zone fills before checking, matching
+  # check_zone_fills:true in jlcpcb.kibot.yaml; without it this gate
+  # validates the fills saved in the board file and can stay green while
+  # the fab pipeline fails on fill differences from a newer KiCad.
   # `--severity-error --exit-code-violations` fails the build on any
   # error-severity violation; warnings are intentionally not gated while
   # the first-iteration boards still carry benign silkscreen-overlap and
@@ -59,6 +63,7 @@ let
         ${stageBoard board}
         kicad-cli pcb drc \
           --schematic-parity \
+          --refill-zones \
           --severity-error \
           --exit-code-violations \
           --format json \
