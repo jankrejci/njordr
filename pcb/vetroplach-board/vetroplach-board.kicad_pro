@@ -60,8 +60,44 @@
       ],
       "drc_exclusions": [
         [
+          "starved_thermal|107483616|77825266|c34aca01-191e-4020-891a-ef8f9092b983|bbcb39a5-20cc-4bb7-b800-65cad3cf5508|F.Cu",
+          "single spoke accepted on the first-iteration board"
+        ],
+        [
           "starved_thermal|110683402|107268764|e11b80ce-d5e8-46ac-a756-020d1f0e989c|af92ae62-ed97-4d90-80fc-00b9c71f101d|F.Cu",
           "goo enough"
+        ],
+        [
+          "starved_thermal|112537339|63657955|c34aca01-191e-4020-891a-ef8f9092b983|f13a9562-ac93-4140-a7c5-6e14fb7c7ab0|F.Cu",
+          "single spoke accepted on the first-iteration board"
+        ],
+        [
+          "starved_thermal|120430239|108396776|c34aca01-191e-4020-891a-ef8f9092b983|a1a9fb5a-f7a1-4bba-ad74-4f0fc7a1b550|F.Cu",
+          "single spoke accepted on the first-iteration board"
+        ],
+        [
+          "starved_thermal|133691147|116282941|c34aca01-191e-4020-891a-ef8f9092b983|18195f2e-512a-4114-a30d-3d5043fcf088|F.Cu",
+          "single spoke accepted on the first-iteration board"
+        ],
+        [
+          "starved_thermal|134653647|88282938|c34aca01-191e-4020-891a-ef8f9092b983|220e2b9f-ad1d-4c74-ae37-40526814529a|F.Cu",
+          "single spoke accepted on the first-iteration board"
+        ],
+        [
+          "starved_thermal|135141146|105732944|c34aca01-191e-4020-891a-ef8f9092b983|a713dab5-55a4-4282-ac86-4a9692947244|F.Cu",
+          "single spoke accepted on the first-iteration board"
+        ],
+        [
+          "starved_thermal|155221760|79234428|c34aca01-191e-4020-891a-ef8f9092b983|abda555d-f978-424f-8ac9-6e587ccbc8fb|F.Cu",
+          "single spoke accepted on the first-iteration board"
+        ],
+        [
+          "starved_thermal|155348908|63793284|c34aca01-191e-4020-891a-ef8f9092b983|d3383b9e-5d11-4aec-8960-1b7ff07ff04e|F.Cu",
+          "single spoke accepted on the first-iteration board"
+        ],
+        [
+          "starved_thermal|99072048|71294529|c34aca01-191e-4020-891a-ef8f9092b983|1c822b7e-247d-4bab-9432-cbede7ce1174|F.Cu",
+          "single spoke accepted on the first-iteration board"
         ]
       ],
       "meta": {
