@@ -42,7 +42,7 @@ async fn main(_spawner: Spawner) {
         .with_pin_a(pin, PwmPinConfig::UP_ACTIVE_HIGH);
 
     // start timer with timestamp values in the range of 0..=99 and a frequency
-    // of 20 kHz
+    // of 40 kHz
     let timer_clock_cfg = clock_cfg
         .timer_clock_with_frequency(99, PwmWorkingMode::Increase, Rate::from_khz(40))
         .expect("BUG: Failed to configure timer");
