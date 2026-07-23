@@ -37,8 +37,8 @@ impl<const CHANNEL: u8> Sonic<CHANNEL> {
     }
 
     pub fn set_frequency(&mut self, frequency: f32, duty: f32) {
-        // Base clock ticks at 40 MHz, e.g. 25 ns per tick. It takes 1000 ticks
-        // to generate 25 us pulse needed for 40 kHz signal
+        // Base clock ticks at 80 MHz, i.e. 12.5 ns per tick. It takes 2000
+        // ticks to generate the 25 us period needed for the 40 kHz signal
         const FREQUENCY_PULSE_RATIO: f32 = 20.0;
         let num_pulses = frequency / FREQUENCY_PULSE_RATIO;
         let num_high_pulses = (num_pulses * duty) as u16;
