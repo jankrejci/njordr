@@ -132,7 +132,6 @@ outputs:
   - name: JLCPCB
     comment: ZIP file for JLCPCB
     type: compress
-    name: '%f-fab'
     options:
       output: '%f-fab.%x'
       move_files: true
@@ -145,14 +144,12 @@ outputs:
   - name: DOCS_schematics
     comment: Schematics documentation
     type: pdf_sch_print
-    name: '%f-sch'
     options:
       output: '%f-sch.%x'
 
   - name: DOCS_pcb
     comment: PCB documentation
     type: pcb_print
-    name: '%f-pcb'
     options:
       output: '%f-pcb.%x'
       format: 'PDF'
